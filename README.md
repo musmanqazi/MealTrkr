@@ -1,4 +1,11 @@
-# Final Project and Presentation
+# Final Project and Presentation - Mamas Apple Pie
 
-The testament for this project will most likely be updated after you clone this repository. Therefore, the testament is available in Canvas.
+Mamas Apple Pie Final Project for CPSC 411-03
+
+# Mamas Apple Pie Team Information
+
+## Member 1
+* Name: Mohammad Usman Qazi
+* CWID: 887737419
+* Email: usmanqazi@csu.fullerton.edu
 
