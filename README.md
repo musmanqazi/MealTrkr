@@ -9,3 +9,22 @@ Mamas Apple Pie Final Project for CPSC 411-03
 * CWID: 887737419
 * Email: usmanqazi@csu.fullerton.edu
 
+## Member 2
+* Name: Aaron Cope
+* CWID:
+* Email:
+
+## Member 3
+* Name: Stephanie Pocci
+* CWID:
+* Email:
+
+## Member 4
+* Name: Andrew Jung
+* CWID:
+* Email:
+
+## Member 5
+* Name: Andrew Pham
+* CWID:
+* Email:
