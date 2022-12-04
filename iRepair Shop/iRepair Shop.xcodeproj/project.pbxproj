@@ -1,0 +1,601 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		563E8A85293C8F5A0056C4CC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 563E8A84293C8F5A0056C4CC /* AppDelegate.swift */; };
+		563E8A87293C8F5A0056C4CC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 563E8A86293C8F5A0056C4CC /* SceneDelegate.swift */; };
+		563E8A89293C8F5A0056C4CC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 563E8A88293C8F5A0056C4CC /* ViewController.swift */; };
+		563E8A8C293C8F5A0056C4CC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 563E8A8A293C8F5A0056C4CC /* Main.storyboard */; };
+		563E8A8E293C8F5B0056C4CC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 563E8A8D293C8F5B0056C4CC /* Assets.xcassets */; };
+		563E8A91293C8F5B0056C4CC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 563E8A8F293C8F5B0056C4CC /* LaunchScreen.storyboard */; };
+		563E8A9C293C8F5C0056C4CC /* iRepair_ShopTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 563E8A9B293C8F5C0056C4CC /* iRepair_ShopTests.swift */; };
+		563E8AA6293C8F5C0056C4CC /* iRepair_ShopUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 563E8AA5293C8F5C0056C4CC /* iRepair_ShopUITests.swift */; };
+		563E8AA8293C8F5C0056C4CC /* iRepair_ShopUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 563E8AA7293C8F5C0056C4CC /* iRepair_ShopUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		563E8A98293C8F5C0056C4CC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 563E8A79293C8F590056C4CC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 563E8A80293C8F590056C4CC;
+			remoteInfo = "iRepair Shop";
+		};
+		563E8AA2293C8F5C0056C4CC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 563E8A79293C8F590056C4CC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 563E8A80293C8F590056C4CC;
+			remoteInfo = "iRepair Shop";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		563E8A81293C8F590056C4CC /* iRepair Shop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iRepair Shop.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		563E8A84293C8F5A0056C4CC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		563E8A86293C8F5A0056C4CC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		563E8A88293C8F5A0056C4CC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		563E8A8B293C8F5A0056C4CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		563E8A8D293C8F5B0056C4CC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		563E8A90293C8F5B0056C4CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		563E8A92293C8F5B0056C4CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		563E8A97293C8F5C0056C4CC /* iRepair ShopTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "iRepair ShopTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		563E8A9B293C8F5C0056C4CC /* iRepair_ShopTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iRepair_ShopTests.swift; sourceTree = "<group>"; };
+		563E8AA1293C8F5C0056C4CC /* iRepair ShopUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "iRepair ShopUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		563E8AA5293C8F5C0056C4CC /* iRepair_ShopUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iRepair_ShopUITests.swift; sourceTree = "<group>"; };
+		563E8AA7293C8F5C0056C4CC /* iRepair_ShopUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iRepair_ShopUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		563E8A7E293C8F590056C4CC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		563E8A94293C8F5C0056C4CC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		563E8A9E293C8F5C0056C4CC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		563E8A78293C8F590056C4CC = {
+			isa = PBXGroup;
+			children = (
+				563E8A83293C8F590056C4CC /* iRepair Shop */,
+				563E8A9A293C8F5C0056C4CC /* iRepair ShopTests */,
+				563E8AA4293C8F5C0056C4CC /* iRepair ShopUITests */,
+				563E8A82293C8F590056C4CC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		563E8A82293C8F590056C4CC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				563E8A81293C8F590056C4CC /* iRepair Shop.app */,
+				563E8A97293C8F5C0056C4CC /* iRepair ShopTests.xctest */,
+				563E8AA1293C8F5C0056C4CC /* iRepair ShopUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		563E8A83293C8F590056C4CC /* iRepair Shop */ = {
+			isa = PBXGroup;
+			children = (
+				563E8A84293C8F5A0056C4CC /* AppDelegate.swift */,
+				563E8A86293C8F5A0056C4CC /* SceneDelegate.swift */,
+				563E8A88293C8F5A0056C4CC /* ViewController.swift */,
+				563E8A8A293C8F5A0056C4CC /* Main.storyboard */,
+				563E8A8D293C8F5B0056C4CC /* Assets.xcassets */,
+				563E8A8F293C8F5B0056C4CC /* LaunchScreen.storyboard */,
+				563E8A92293C8F5B0056C4CC /* Info.plist */,
+			);
+			path = "iRepair Shop";
+			sourceTree = "<group>";
+		};
+		563E8A9A293C8F5C0056C4CC /* iRepair ShopTests */ = {
+			isa = PBXGroup;
+			children = (
+				563E8A9B293C8F5C0056C4CC /* iRepair_ShopTests.swift */,
+			);
+			path = "iRepair ShopTests";
+			sourceTree = "<group>";
+		};
+		563E8AA4293C8F5C0056C4CC /* iRepair ShopUITests */ = {
+			isa = PBXGroup;
+			children = (
+				563E8AA5293C8F5C0056C4CC /* iRepair_ShopUITests.swift */,
+				563E8AA7293C8F5C0056C4CC /* iRepair_ShopUITestsLaunchTests.swift */,
+			);
+			path = "iRepair ShopUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		563E8A80293C8F590056C4CC /* iRepair Shop */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 563E8AAB293C8F5C0056C4CC /* Build configuration list for PBXNativeTarget "iRepair Shop" */;
+			buildPhases = (
+				563E8A7D293C8F590056C4CC /* Sources */,
+				563E8A7E293C8F590056C4CC /* Frameworks */,
+				563E8A7F293C8F590056C4CC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "iRepair Shop";
+			productName = "iRepair Shop";
+			productReference = 563E8A81293C8F590056C4CC /* iRepair Shop.app */;
+			productType = "com.apple.product-type.application";
+		};
+		563E8A96293C8F5C0056C4CC /* iRepair ShopTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 563E8AAE293C8F5C0056C4CC /* Build configuration list for PBXNativeTarget "iRepair ShopTests" */;
+			buildPhases = (
+				563E8A93293C8F5C0056C4CC /* Sources */,
+				563E8A94293C8F5C0056C4CC /* Frameworks */,
+				563E8A95293C8F5C0056C4CC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				563E8A99293C8F5C0056C4CC /* PBXTargetDependency */,
+			);
+			name = "iRepair ShopTests";
+			productName = "iRepair ShopTests";
+			productReference = 563E8A97293C8F5C0056C4CC /* iRepair ShopTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		563E8AA0293C8F5C0056C4CC /* iRepair ShopUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 563E8AB1293C8F5C0056C4CC /* Build configuration list for PBXNativeTarget "iRepair ShopUITests" */;
+			buildPhases = (
+				563E8A9D293C8F5C0056C4CC /* Sources */,
+				563E8A9E293C8F5C0056C4CC /* Frameworks */,
+				563E8A9F293C8F5C0056C4CC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				563E8AA3293C8F5C0056C4CC /* PBXTargetDependency */,
+			);
+			name = "iRepair ShopUITests";
+			productName = "iRepair ShopUITests";
+			productReference = 563E8AA1293C8F5C0056C4CC /* iRepair ShopUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		563E8A79293C8F590056C4CC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1410;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					563E8A80293C8F590056C4CC = {
+						CreatedOnToolsVersion = 14.1;
+					};
+					563E8A96293C8F5C0056C4CC = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = 563E8A80293C8F590056C4CC;
+					};
+					563E8AA0293C8F5C0056C4CC = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = 563E8A80293C8F590056C4CC;
+					};
+				};
+			};
+			buildConfigurationList = 563E8A7C293C8F590056C4CC /* Build configuration list for PBXProject "iRepair Shop" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 563E8A78293C8F590056C4CC;
+			productRefGroup = 563E8A82293C8F590056C4CC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				563E8A80293C8F590056C4CC /* iRepair Shop */,
+				563E8A96293C8F5C0056C4CC /* iRepair ShopTests */,
+				563E8AA0293C8F5C0056C4CC /* iRepair ShopUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		563E8A7F293C8F590056C4CC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				563E8A91293C8F5B0056C4CC /* LaunchScreen.storyboard in Resources */,
+				563E8A8E293C8F5B0056C4CC /* Assets.xcassets in Resources */,
+				563E8A8C293C8F5A0056C4CC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		563E8A95293C8F5C0056C4CC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		563E8A9F293C8F5C0056C4CC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		563E8A7D293C8F590056C4CC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				563E8A89293C8F5A0056C4CC /* ViewController.swift in Sources */,
+				563E8A85293C8F5A0056C4CC /* AppDelegate.swift in Sources */,
+				563E8A87293C8F5A0056C4CC /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		563E8A93293C8F5C0056C4CC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				563E8A9C293C8F5C0056C4CC /* iRepair_ShopTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		563E8A9D293C8F5C0056C4CC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				563E8AA6293C8F5C0056C4CC /* iRepair_ShopUITests.swift in Sources */,
+				563E8AA8293C8F5C0056C4CC /* iRepair_ShopUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		563E8A99293C8F5C0056C4CC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 563E8A80293C8F590056C4CC /* iRepair Shop */;
+			targetProxy = 563E8A98293C8F5C0056C4CC /* PBXContainerItemProxy */;
+		};
+		563E8AA3293C8F5C0056C4CC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 563E8A80293C8F590056C4CC /* iRepair Shop */;
+			targetProxy = 563E8AA2293C8F5C0056C4CC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		563E8A8A293C8F5A0056C4CC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				563E8A8B293C8F5A0056C4CC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		563E8A8F293C8F5B0056C4CC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				563E8A90293C8F5B0056C4CC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		563E8AA9293C8F5C0056C4CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		563E8AAA293C8F5C0056C4CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		563E8AAC293C8F5C0056C4CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iRepair Shop/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.usmanqazi.iRepair-Shop";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		563E8AAD293C8F5C0056C4CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iRepair Shop/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.usmanqazi.iRepair-Shop";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		563E8AAF293C8F5C0056C4CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.usmanqazi.iRepair-ShopTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iRepair Shop.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/iRepair Shop";
+			};
+			name = Debug;
+		};
+		563E8AB0293C8F5C0056C4CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.usmanqazi.iRepair-ShopTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iRepair Shop.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/iRepair Shop";
+			};
+			name = Release;
+		};
+		563E8AB2293C8F5C0056C4CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.usmanqazi.iRepair-ShopUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "iRepair Shop";
+			};
+			name = Debug;
+		};
+		563E8AB3293C8F5C0056C4CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.usmanqazi.iRepair-ShopUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "iRepair Shop";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		563E8A7C293C8F590056C4CC /* Build configuration list for PBXProject "iRepair Shop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				563E8AA9293C8F5C0056C4CC /* Debug */,
+				563E8AAA293C8F5C0056C4CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		563E8AAB293C8F5C0056C4CC /* Build configuration list for PBXNativeTarget "iRepair Shop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				563E8AAC293C8F5C0056C4CC /* Debug */,
+				563E8AAD293C8F5C0056C4CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		563E8AAE293C8F5C0056C4CC /* Build configuration list for PBXNativeTarget "iRepair ShopTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				563E8AAF293C8F5C0056C4CC /* Debug */,
+				563E8AB0293C8F5C0056C4CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		563E8AB1293C8F5C0056C4CC /* Build configuration list for PBXNativeTarget "iRepair ShopUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				563E8AB2293C8F5C0056C4CC /* Debug */,
+				563E8AB3293C8F5C0056C4CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 563E8A79293C8F590056C4CC /* Project object */;
+}
