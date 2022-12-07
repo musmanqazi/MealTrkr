@@ -24,9 +24,19 @@
                                 </constraints>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Y9b-LH-KTG">
-                                <rect key="frame" x="126" y="698" width="162" height="35"/>
+                                <rect key="frame" x="143.5" y="698" width="127.5" height="28"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" title="START TRACKING"/>
+                                <buttonConfiguration key="configuration" style="filled">
+                                    <attributedString key="attributedTitle">
+                                        <fragment content="START TRACKING">
+                                            <attributes>
+                                                <font key="NSFont" size="12" name="Helvetica"/>
+                                                <font key="NSOriginalFont" size="12" name="Helvetica"/>
+                                                <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                            </attributes>
+                                        </fragment>
+                                    </attributedString>
+                                </buttonConfiguration>
                                 <connections>
                                     <segue destination="8W0-jp-ap0" kind="presentation" modalPresentationStyle="fullScreen" id="ukK-FI-L0s"/>
                                 </connections>
@@ -42,11 +52,11 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="Y9b-LH-KTG" firstAttribute="top" secondItem="IUD-Xn-mvo" secondAttribute="bottom" constant="100" id="G6d-yL-zw0"/>
+                            <constraint firstItem="Y9b-LH-KTG" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="H0d-EP-EQj"/>
                             <constraint firstItem="IUD-Xn-mvo" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Odn-v3-CdE"/>
                             <constraint firstItem="IUD-Xn-mvo" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="OsR-aD-yk1"/>
                             <constraint firstItem="jcJ-5f-ajy" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="ZWo-KH-d6U"/>
                             <constraint firstItem="IUD-Xn-mvo" firstAttribute="top" secondItem="jcJ-5f-ajy" secondAttribute="bottom" constant="100" id="bWW-8d-Nbj"/>
-                            <constraint firstItem="Y9b-LH-KTG" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="bhX-tW-uXl"/>
                         </constraints>
                     </view>
                 </viewController>
