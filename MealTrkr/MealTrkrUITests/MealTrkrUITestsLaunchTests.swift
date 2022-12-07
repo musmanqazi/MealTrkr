@@ -1,13 +1,13 @@
 //
-//  iRepair_ShopUITestsLaunchTests.swift
-//  iRepair ShopUITests
+//  MealTrkrUITestsLaunchTests.swift
+//  MealTrkrUITests
 //
-//  Created by Usman Qazi on 12/4/22.
+//  Created by Usman Qazi on 12/6/22.
 //
 
 import XCTest
 
-final class iRepair_ShopUITestsLaunchTests: XCTestCase {
+final class MealTrkrUITestsLaunchTests: XCTestCase {
 
     override class var runsForEachTargetApplicationUIConfiguration: Bool {
         true

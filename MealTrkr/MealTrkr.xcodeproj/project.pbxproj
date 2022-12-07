@@ -7,66 +7,66 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		563E8A85293C8F5A0056C4CC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 563E8A84293C8F5A0056C4CC /* AppDelegate.swift */; };
-		563E8A87293C8F5A0056C4CC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 563E8A86293C8F5A0056C4CC /* SceneDelegate.swift */; };
-		563E8A89293C8F5A0056C4CC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 563E8A88293C8F5A0056C4CC /* ViewController.swift */; };
-		563E8A8C293C8F5A0056C4CC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 563E8A8A293C8F5A0056C4CC /* Main.storyboard */; };
-		563E8A8E293C8F5B0056C4CC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 563E8A8D293C8F5B0056C4CC /* Assets.xcassets */; };
-		563E8A91293C8F5B0056C4CC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 563E8A8F293C8F5B0056C4CC /* LaunchScreen.storyboard */; };
-		563E8A9C293C8F5C0056C4CC /* iRepair_ShopTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 563E8A9B293C8F5C0056C4CC /* iRepair_ShopTests.swift */; };
-		563E8AA6293C8F5C0056C4CC /* iRepair_ShopUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 563E8AA5293C8F5C0056C4CC /* iRepair_ShopUITests.swift */; };
-		563E8AA8293C8F5C0056C4CC /* iRepair_ShopUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 563E8AA7293C8F5C0056C4CC /* iRepair_ShopUITestsLaunchTests.swift */; };
+		562361CE2940275900D599D9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 562361CD2940275900D599D9 /* AppDelegate.swift */; };
+		562361D02940275900D599D9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 562361CF2940275900D599D9 /* SceneDelegate.swift */; };
+		562361D22940275900D599D9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 562361D12940275900D599D9 /* ViewController.swift */; };
+		562361D52940275900D599D9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 562361D32940275900D599D9 /* Main.storyboard */; };
+		562361D72940275C00D599D9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 562361D62940275C00D599D9 /* Assets.xcassets */; };
+		562361DA2940275C00D599D9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 562361D82940275C00D599D9 /* LaunchScreen.storyboard */; };
+		562361E52940275D00D599D9 /* MealTrkrTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 562361E42940275D00D599D9 /* MealTrkrTests.swift */; };
+		562361EF2940275D00D599D9 /* MealTrkrUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 562361EE2940275D00D599D9 /* MealTrkrUITests.swift */; };
+		562361F12940275D00D599D9 /* MealTrkrUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 562361F02940275D00D599D9 /* MealTrkrUITestsLaunchTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		563E8A98293C8F5C0056C4CC /* PBXContainerItemProxy */ = {
+		562361E12940275D00D599D9 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 563E8A79293C8F590056C4CC /* Project object */;
+			containerPortal = 562361C22940275900D599D9 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 563E8A80293C8F590056C4CC;
-			remoteInfo = "iRepair Shop";
+			remoteGlobalIDString = 562361C92940275900D599D9;
+			remoteInfo = MealTrkr;
 		};
-		563E8AA2293C8F5C0056C4CC /* PBXContainerItemProxy */ = {
+		562361EB2940275D00D599D9 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 563E8A79293C8F590056C4CC /* Project object */;
+			containerPortal = 562361C22940275900D599D9 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 563E8A80293C8F590056C4CC;
-			remoteInfo = "iRepair Shop";
+			remoteGlobalIDString = 562361C92940275900D599D9;
+			remoteInfo = MealTrkr;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		563E8A81293C8F590056C4CC /* iRepair Shop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iRepair Shop.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		563E8A84293C8F5A0056C4CC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		563E8A86293C8F5A0056C4CC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		563E8A88293C8F5A0056C4CC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		563E8A8B293C8F5A0056C4CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		563E8A8D293C8F5B0056C4CC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		563E8A90293C8F5B0056C4CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		563E8A92293C8F5B0056C4CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		563E8A97293C8F5C0056C4CC /* iRepair ShopTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "iRepair ShopTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		563E8A9B293C8F5C0056C4CC /* iRepair_ShopTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iRepair_ShopTests.swift; sourceTree = "<group>"; };
-		563E8AA1293C8F5C0056C4CC /* iRepair ShopUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "iRepair ShopUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		563E8AA5293C8F5C0056C4CC /* iRepair_ShopUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iRepair_ShopUITests.swift; sourceTree = "<group>"; };
-		563E8AA7293C8F5C0056C4CC /* iRepair_ShopUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iRepair_ShopUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		562361CA2940275900D599D9 /* MealTrkr.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MealTrkr.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		562361CD2940275900D599D9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		562361CF2940275900D599D9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		562361D12940275900D599D9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		562361D42940275900D599D9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		562361D62940275C00D599D9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		562361D92940275C00D599D9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		562361DB2940275C00D599D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		562361E02940275D00D599D9 /* MealTrkrTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MealTrkrTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		562361E42940275D00D599D9 /* MealTrkrTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealTrkrTests.swift; sourceTree = "<group>"; };
+		562361EA2940275D00D599D9 /* MealTrkrUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MealTrkrUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		562361EE2940275D00D599D9 /* MealTrkrUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealTrkrUITests.swift; sourceTree = "<group>"; };
+		562361F02940275D00D599D9 /* MealTrkrUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealTrkrUITestsLaunchTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		563E8A7E293C8F590056C4CC /* Frameworks */ = {
+		562361C72940275900D599D9 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		563E8A94293C8F5C0056C4CC /* Frameworks */ = {
+		562361DD2940275D00D599D9 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		563E8A9E293C8F5C0056C4CC /* Frameworks */ = {
+		562361E72940275D00D599D9 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -76,137 +76,137 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		563E8A78293C8F590056C4CC = {
+		562361C12940275900D599D9 = {
 			isa = PBXGroup;
 			children = (
-				563E8A83293C8F590056C4CC /* iRepair Shop */,
-				563E8A9A293C8F5C0056C4CC /* iRepair ShopTests */,
-				563E8AA4293C8F5C0056C4CC /* iRepair ShopUITests */,
-				563E8A82293C8F590056C4CC /* Products */,
+				562361CC2940275900D599D9 /* MealTrkr */,
+				562361E32940275D00D599D9 /* MealTrkrTests */,
+				562361ED2940275D00D599D9 /* MealTrkrUITests */,
+				562361CB2940275900D599D9 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		563E8A82293C8F590056C4CC /* Products */ = {
+		562361CB2940275900D599D9 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				563E8A81293C8F590056C4CC /* iRepair Shop.app */,
-				563E8A97293C8F5C0056C4CC /* iRepair ShopTests.xctest */,
-				563E8AA1293C8F5C0056C4CC /* iRepair ShopUITests.xctest */,
+				562361CA2940275900D599D9 /* MealTrkr.app */,
+				562361E02940275D00D599D9 /* MealTrkrTests.xctest */,
+				562361EA2940275D00D599D9 /* MealTrkrUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		563E8A83293C8F590056C4CC /* iRepair Shop */ = {
+		562361CC2940275900D599D9 /* MealTrkr */ = {
 			isa = PBXGroup;
 			children = (
-				563E8A84293C8F5A0056C4CC /* AppDelegate.swift */,
-				563E8A86293C8F5A0056C4CC /* SceneDelegate.swift */,
-				563E8A88293C8F5A0056C4CC /* ViewController.swift */,
-				563E8A8A293C8F5A0056C4CC /* Main.storyboard */,
-				563E8A8D293C8F5B0056C4CC /* Assets.xcassets */,
-				563E8A8F293C8F5B0056C4CC /* LaunchScreen.storyboard */,
-				563E8A92293C8F5B0056C4CC /* Info.plist */,
+				562361CD2940275900D599D9 /* AppDelegate.swift */,
+				562361CF2940275900D599D9 /* SceneDelegate.swift */,
+				562361D12940275900D599D9 /* ViewController.swift */,
+				562361D32940275900D599D9 /* Main.storyboard */,
+				562361D62940275C00D599D9 /* Assets.xcassets */,
+				562361D82940275C00D599D9 /* LaunchScreen.storyboard */,
+				562361DB2940275C00D599D9 /* Info.plist */,
 			);
-			path = "iRepair Shop";
+			path = MealTrkr;
 			sourceTree = "<group>";
 		};
-		563E8A9A293C8F5C0056C4CC /* iRepair ShopTests */ = {
+		562361E32940275D00D599D9 /* MealTrkrTests */ = {
 			isa = PBXGroup;
 			children = (
-				563E8A9B293C8F5C0056C4CC /* iRepair_ShopTests.swift */,
+				562361E42940275D00D599D9 /* MealTrkrTests.swift */,
 			);
-			path = "iRepair ShopTests";
+			path = MealTrkrTests;
 			sourceTree = "<group>";
 		};
-		563E8AA4293C8F5C0056C4CC /* iRepair ShopUITests */ = {
+		562361ED2940275D00D599D9 /* MealTrkrUITests */ = {
 			isa = PBXGroup;
 			children = (
-				563E8AA5293C8F5C0056C4CC /* iRepair_ShopUITests.swift */,
-				563E8AA7293C8F5C0056C4CC /* iRepair_ShopUITestsLaunchTests.swift */,
+				562361EE2940275D00D599D9 /* MealTrkrUITests.swift */,
+				562361F02940275D00D599D9 /* MealTrkrUITestsLaunchTests.swift */,
 			);
-			path = "iRepair ShopUITests";
+			path = MealTrkrUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		563E8A80293C8F590056C4CC /* iRepair Shop */ = {
+		562361C92940275900D599D9 /* MealTrkr */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 563E8AAB293C8F5C0056C4CC /* Build configuration list for PBXNativeTarget "iRepair Shop" */;
+			buildConfigurationList = 562361F42940275D00D599D9 /* Build configuration list for PBXNativeTarget "MealTrkr" */;
 			buildPhases = (
-				563E8A7D293C8F590056C4CC /* Sources */,
-				563E8A7E293C8F590056C4CC /* Frameworks */,
-				563E8A7F293C8F590056C4CC /* Resources */,
+				562361C62940275900D599D9 /* Sources */,
+				562361C72940275900D599D9 /* Frameworks */,
+				562361C82940275900D599D9 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "iRepair Shop";
-			productName = "iRepair Shop";
-			productReference = 563E8A81293C8F590056C4CC /* iRepair Shop.app */;
+			name = MealTrkr;
+			productName = MealTrkr;
+			productReference = 562361CA2940275900D599D9 /* MealTrkr.app */;
 			productType = "com.apple.product-type.application";
 		};
-		563E8A96293C8F5C0056C4CC /* iRepair ShopTests */ = {
+		562361DF2940275D00D599D9 /* MealTrkrTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 563E8AAE293C8F5C0056C4CC /* Build configuration list for PBXNativeTarget "iRepair ShopTests" */;
+			buildConfigurationList = 562361F72940275D00D599D9 /* Build configuration list for PBXNativeTarget "MealTrkrTests" */;
 			buildPhases = (
-				563E8A93293C8F5C0056C4CC /* Sources */,
-				563E8A94293C8F5C0056C4CC /* Frameworks */,
-				563E8A95293C8F5C0056C4CC /* Resources */,
+				562361DC2940275D00D599D9 /* Sources */,
+				562361DD2940275D00D599D9 /* Frameworks */,
+				562361DE2940275D00D599D9 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				563E8A99293C8F5C0056C4CC /* PBXTargetDependency */,
+				562361E22940275D00D599D9 /* PBXTargetDependency */,
 			);
-			name = "iRepair ShopTests";
-			productName = "iRepair ShopTests";
-			productReference = 563E8A97293C8F5C0056C4CC /* iRepair ShopTests.xctest */;
+			name = MealTrkrTests;
+			productName = MealTrkrTests;
+			productReference = 562361E02940275D00D599D9 /* MealTrkrTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		563E8AA0293C8F5C0056C4CC /* iRepair ShopUITests */ = {
+		562361E92940275D00D599D9 /* MealTrkrUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 563E8AB1293C8F5C0056C4CC /* Build configuration list for PBXNativeTarget "iRepair ShopUITests" */;
+			buildConfigurationList = 562361FA2940275D00D599D9 /* Build configuration list for PBXNativeTarget "MealTrkrUITests" */;
 			buildPhases = (
-				563E8A9D293C8F5C0056C4CC /* Sources */,
-				563E8A9E293C8F5C0056C4CC /* Frameworks */,
-				563E8A9F293C8F5C0056C4CC /* Resources */,
+				562361E62940275D00D599D9 /* Sources */,
+				562361E72940275D00D599D9 /* Frameworks */,
+				562361E82940275D00D599D9 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				563E8AA3293C8F5C0056C4CC /* PBXTargetDependency */,
+				562361EC2940275D00D599D9 /* PBXTargetDependency */,
 			);
-			name = "iRepair ShopUITests";
-			productName = "iRepair ShopUITests";
-			productReference = 563E8AA1293C8F5C0056C4CC /* iRepair ShopUITests.xctest */;
+			name = MealTrkrUITests;
+			productName = MealTrkrUITests;
+			productReference = 562361EA2940275D00D599D9 /* MealTrkrUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		563E8A79293C8F590056C4CC /* Project object */ = {
+		562361C22940275900D599D9 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1410;
 				LastUpgradeCheck = 1410;
 				TargetAttributes = {
-					563E8A80293C8F590056C4CC = {
+					562361C92940275900D599D9 = {
 						CreatedOnToolsVersion = 14.1;
 					};
-					563E8A96293C8F5C0056C4CC = {
+					562361DF2940275D00D599D9 = {
 						CreatedOnToolsVersion = 14.1;
-						TestTargetID = 563E8A80293C8F590056C4CC;
+						TestTargetID = 562361C92940275900D599D9;
 					};
-					563E8AA0293C8F5C0056C4CC = {
+					562361E92940275D00D599D9 = {
 						CreatedOnToolsVersion = 14.1;
-						TestTargetID = 563E8A80293C8F590056C4CC;
+						TestTargetID = 562361C92940275900D599D9;
 					};
 				};
 			};
-			buildConfigurationList = 563E8A7C293C8F590056C4CC /* Build configuration list for PBXProject "iRepair Shop" */;
+			buildConfigurationList = 562361C52940275900D599D9 /* Build configuration list for PBXProject "MealTrkr" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -214,37 +214,37 @@
 				en,
 				Base,
 			);
-			mainGroup = 563E8A78293C8F590056C4CC;
-			productRefGroup = 563E8A82293C8F590056C4CC /* Products */;
+			mainGroup = 562361C12940275900D599D9;
+			productRefGroup = 562361CB2940275900D599D9 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				563E8A80293C8F590056C4CC /* iRepair Shop */,
-				563E8A96293C8F5C0056C4CC /* iRepair ShopTests */,
-				563E8AA0293C8F5C0056C4CC /* iRepair ShopUITests */,
+				562361C92940275900D599D9 /* MealTrkr */,
+				562361DF2940275D00D599D9 /* MealTrkrTests */,
+				562361E92940275D00D599D9 /* MealTrkrUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		563E8A7F293C8F590056C4CC /* Resources */ = {
+		562361C82940275900D599D9 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				563E8A91293C8F5B0056C4CC /* LaunchScreen.storyboard in Resources */,
-				563E8A8E293C8F5B0056C4CC /* Assets.xcassets in Resources */,
-				563E8A8C293C8F5A0056C4CC /* Main.storyboard in Resources */,
+				562361DA2940275C00D599D9 /* LaunchScreen.storyboard in Resources */,
+				562361D72940275C00D599D9 /* Assets.xcassets in Resources */,
+				562361D52940275900D599D9 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		563E8A95293C8F5C0056C4CC /* Resources */ = {
+		562361DE2940275D00D599D9 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		563E8A9F293C8F5C0056C4CC /* Resources */ = {
+		562361E82940275D00D599D9 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -254,61 +254,61 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		563E8A7D293C8F590056C4CC /* Sources */ = {
+		562361C62940275900D599D9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				563E8A89293C8F5A0056C4CC /* ViewController.swift in Sources */,
-				563E8A85293C8F5A0056C4CC /* AppDelegate.swift in Sources */,
-				563E8A87293C8F5A0056C4CC /* SceneDelegate.swift in Sources */,
+				562361D22940275900D599D9 /* ViewController.swift in Sources */,
+				562361CE2940275900D599D9 /* AppDelegate.swift in Sources */,
+				562361D02940275900D599D9 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		563E8A93293C8F5C0056C4CC /* Sources */ = {
+		562361DC2940275D00D599D9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				563E8A9C293C8F5C0056C4CC /* iRepair_ShopTests.swift in Sources */,
+				562361E52940275D00D599D9 /* MealTrkrTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		563E8A9D293C8F5C0056C4CC /* Sources */ = {
+		562361E62940275D00D599D9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				563E8AA6293C8F5C0056C4CC /* iRepair_ShopUITests.swift in Sources */,
-				563E8AA8293C8F5C0056C4CC /* iRepair_ShopUITestsLaunchTests.swift in Sources */,
+				562361F12940275D00D599D9 /* MealTrkrUITestsLaunchTests.swift in Sources */,
+				562361EF2940275D00D599D9 /* MealTrkrUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		563E8A99293C8F5C0056C4CC /* PBXTargetDependency */ = {
+		562361E22940275D00D599D9 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 563E8A80293C8F590056C4CC /* iRepair Shop */;
-			targetProxy = 563E8A98293C8F5C0056C4CC /* PBXContainerItemProxy */;
+			target = 562361C92940275900D599D9 /* MealTrkr */;
+			targetProxy = 562361E12940275D00D599D9 /* PBXContainerItemProxy */;
 		};
-		563E8AA3293C8F5C0056C4CC /* PBXTargetDependency */ = {
+		562361EC2940275D00D599D9 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 563E8A80293C8F590056C4CC /* iRepair Shop */;
-			targetProxy = 563E8AA2293C8F5C0056C4CC /* PBXContainerItemProxy */;
+			target = 562361C92940275900D599D9 /* MealTrkr */;
+			targetProxy = 562361EB2940275D00D599D9 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		563E8A8A293C8F5A0056C4CC /* Main.storyboard */ = {
+		562361D32940275900D599D9 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				563E8A8B293C8F5A0056C4CC /* Base */,
+				562361D42940275900D599D9 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		563E8A8F293C8F5B0056C4CC /* LaunchScreen.storyboard */ = {
+		562361D82940275C00D599D9 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				563E8A90293C8F5B0056C4CC /* Base */,
+				562361D92940275C00D599D9 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -316,7 +316,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		563E8AA9293C8F5C0056C4CC /* Debug */ = {
+		562361F22940275D00D599D9 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -376,7 +376,7 @@
 			};
 			name = Debug;
 		};
-		563E8AAA293C8F5C0056C4CC /* Release */ = {
+		562361F32940275D00D599D9 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -430,7 +430,7 @@
 			};
 			name = Release;
 		};
-		563E8AAC293C8F5C0056C4CC /* Debug */ = {
+		562361F52940275D00D599D9 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -438,7 +438,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "iRepair Shop/Info.plist";
+				INFOPLIST_FILE = MealTrkr/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -449,7 +449,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.usmanqazi.iRepair-Shop";
+				PRODUCT_BUNDLE_IDENTIFIER = com.usmanqazi.MealTrkr;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -457,7 +457,7 @@
 			};
 			name = Debug;
 		};
-		563E8AAD293C8F5C0056C4CC /* Release */ = {
+		562361F62940275D00D599D9 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -465,7 +465,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "iRepair Shop/Info.plist";
+				INFOPLIST_FILE = MealTrkr/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -476,7 +476,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.usmanqazi.iRepair-Shop";
+				PRODUCT_BUNDLE_IDENTIFIER = com.usmanqazi.MealTrkr;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -484,7 +484,7 @@
 			};
 			name = Release;
 		};
-		563E8AAF293C8F5C0056C4CC /* Debug */ = {
+		562361F82940275D00D599D9 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -494,16 +494,16 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.usmanqazi.iRepair-ShopTests";
+				PRODUCT_BUNDLE_IDENTIFIER = com.usmanqazi.MealTrkrTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iRepair Shop.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/iRepair Shop";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MealTrkr.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MealTrkr";
 			};
 			name = Debug;
 		};
-		563E8AB0293C8F5C0056C4CC /* Release */ = {
+		562361F92940275D00D599D9 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -513,16 +513,16 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.usmanqazi.iRepair-ShopTests";
+				PRODUCT_BUNDLE_IDENTIFIER = com.usmanqazi.MealTrkrTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iRepair Shop.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/iRepair Shop";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MealTrkr.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MealTrkr";
 			};
 			name = Release;
 		};
-		563E8AB2293C8F5C0056C4CC /* Debug */ = {
+		562361FB2940275D00D599D9 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -530,16 +530,16 @@
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.usmanqazi.iRepair-ShopUITests";
+				PRODUCT_BUNDLE_IDENTIFIER = com.usmanqazi.MealTrkrUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "iRepair Shop";
+				TEST_TARGET_NAME = MealTrkr;
 			};
 			name = Debug;
 		};
-		563E8AB3293C8F5C0056C4CC /* Release */ = {
+		562361FC2940275D00D599D9 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -547,55 +547,55 @@
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.usmanqazi.iRepair-ShopUITests";
+				PRODUCT_BUNDLE_IDENTIFIER = com.usmanqazi.MealTrkrUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "iRepair Shop";
+				TEST_TARGET_NAME = MealTrkr;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		563E8A7C293C8F590056C4CC /* Build configuration list for PBXProject "iRepair Shop" */ = {
+		562361C52940275900D599D9 /* Build configuration list for PBXProject "MealTrkr" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				563E8AA9293C8F5C0056C4CC /* Debug */,
-				563E8AAA293C8F5C0056C4CC /* Release */,
+				562361F22940275D00D599D9 /* Debug */,
+				562361F32940275D00D599D9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		563E8AAB293C8F5C0056C4CC /* Build configuration list for PBXNativeTarget "iRepair Shop" */ = {
+		562361F42940275D00D599D9 /* Build configuration list for PBXNativeTarget "MealTrkr" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				563E8AAC293C8F5C0056C4CC /* Debug */,
-				563E8AAD293C8F5C0056C4CC /* Release */,
+				562361F52940275D00D599D9 /* Debug */,
+				562361F62940275D00D599D9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		563E8AAE293C8F5C0056C4CC /* Build configuration list for PBXNativeTarget "iRepair ShopTests" */ = {
+		562361F72940275D00D599D9 /* Build configuration list for PBXNativeTarget "MealTrkrTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				563E8AAF293C8F5C0056C4CC /* Debug */,
-				563E8AB0293C8F5C0056C4CC /* Release */,
+				562361F82940275D00D599D9 /* Debug */,
+				562361F92940275D00D599D9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		563E8AB1293C8F5C0056C4CC /* Build configuration list for PBXNativeTarget "iRepair ShopUITests" */ = {
+		562361FA2940275D00D599D9 /* Build configuration list for PBXNativeTarget "MealTrkrUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				563E8AB2293C8F5C0056C4CC /* Debug */,
-				563E8AB3293C8F5C0056C4CC /* Release */,
+				562361FB2940275D00D599D9 /* Debug */,
+				562361FC2940275D00D599D9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 563E8A79293C8F590056C4CC /* Project object */;
+	rootObject = 562361C22940275900D599D9 /* Project object */;
 }

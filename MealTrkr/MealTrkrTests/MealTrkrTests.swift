@@ -1,14 +1,14 @@
 //
-//  iRepair_ShopTests.swift
-//  iRepair ShopTests
+//  MealTrkrTests.swift
+//  MealTrkrTests
 //
-//  Created by Usman Qazi on 12/4/22.
+//  Created by Usman Qazi on 12/6/22.
 //
 
 import XCTest
-@testable import iRepair_Shop
+@testable import MealTrkr
 
-final class iRepair_ShopTests: XCTestCase {
+final class MealTrkrTests: XCTestCase {
 
     override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation of each test method in the class.
