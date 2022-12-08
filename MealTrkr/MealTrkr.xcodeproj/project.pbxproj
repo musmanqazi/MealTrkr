@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		462AAEED29411E9C00E2843B /* SearchController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 462AAEEC29411E9C00E2843B /* SearchController.swift */; };
+		462AAEF02941458200E2843B /* StoredMeals.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 462AAEEE2941458200E2843B /* StoredMeals.xcdatamodeld */; };
+		462AAEF429414EF600E2843B /* MealStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 462AAEF329414EF600E2843B /* MealStore.swift */; };
+		462AAEF8294156E600E2843B /* MealsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 462AAEF7294156E600E2843B /* MealsController.swift */; };
 		562361CE2940275900D599D9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 562361CD2940275900D599D9 /* AppDelegate.swift */; };
 		562361D02940275900D599D9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 562361CF2940275900D599D9 /* SceneDelegate.swift */; };
 		562361D22940275900D599D9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 562361D12940275900D599D9 /* ViewController.swift */; };
@@ -38,6 +41,9 @@
 
 /* Begin PBXFileReference section */
 		462AAEEC29411E9C00E2843B /* SearchController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchController.swift; sourceTree = "<group>"; };
+		462AAEEF2941458200E2843B /* StoredMeals.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = StoredMeals.xcdatamodel; sourceTree = "<group>"; };
+		462AAEF329414EF600E2843B /* MealStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealStore.swift; sourceTree = "<group>"; };
+		462AAEF7294156E600E2843B /* MealsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealsController.swift; sourceTree = "<group>"; };
 		562361CA2940275900D599D9 /* MealTrkr.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MealTrkr.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		562361CD2940275900D599D9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		562361CF2940275900D599D9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -101,11 +107,14 @@
 		562361CC2940275900D599D9 /* MealTrkr */ = {
 			isa = PBXGroup;
 			children = (
+				462AAEEE2941458200E2843B /* StoredMeals.xcdatamodeld */,
 				462AAEEC29411E9C00E2843B /* SearchController.swift */,
+				462AAEF329414EF600E2843B /* MealStore.swift */,
 				562361CD2940275900D599D9 /* AppDelegate.swift */,
 				562361CF2940275900D599D9 /* SceneDelegate.swift */,
 				562361D12940275900D599D9 /* ViewController.swift */,
 				562361D32940275900D599D9 /* Main.storyboard */,
+				462AAEF7294156E600E2843B /* MealsController.swift */,
 				562361D62940275C00D599D9 /* Assets.xcassets */,
 				562361D82940275C00D599D9 /* LaunchScreen.storyboard */,
 				562361DB2940275C00D599D9 /* Info.plist */,
@@ -261,9 +270,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				462AAEF429414EF600E2843B /* MealStore.swift in Sources */,
+				462AAEF8294156E600E2843B /* MealsController.swift in Sources */,
 				562361D22940275900D599D9 /* ViewController.swift in Sources */,
 				562361CE2940275900D599D9 /* AppDelegate.swift in Sources */,
 				562361D02940275900D599D9 /* SceneDelegate.swift in Sources */,
+				462AAEF02941458200E2843B /* StoredMeals.xcdatamodeld in Sources */,
 				462AAEED29411E9C00E2843B /* SearchController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -600,6 +612,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		462AAEEE2941458200E2843B /* StoredMeals.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				462AAEEF2941458200E2843B /* StoredMeals.xcdatamodel */,
+			);
+			currentVersion = 462AAEEF2941458200E2843B /* StoredMeals.xcdatamodel */;
+			path = StoredMeals.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 562361C22940275900D599D9 /* Project object */;
 }
