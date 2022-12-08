@@ -57,6 +57,10 @@ class SearchController: UIViewController {
             return
         }
         
+        getNutritionalInfo()
+    }
+    
+    func getNutritionalInfo() {
         let url = URL(string: "https://trackapi.nutritionix.com/v2/natural/nutrients")!
         
         var request = URLRequest(url: url)
@@ -83,6 +87,7 @@ class SearchController: UIViewController {
                     let jsonFood = try decoder.decode(Response.self, from: data)
                     self.current_food = jsonFood.foods[0]
                     print(jsonFood.foods[0])
+                    self.getFoodImage()
                     OperationQueue.main.addOperation {
                         self.updateNutritionLabels()
                         self.AddButton.isEnabled = true
@@ -95,6 +100,20 @@ class SearchController: UIViewController {
             }
         }
         task.resume()
+    }
+    
+    func getFoodImage(){
+        let urlString = current_food.photo.highres
+        if (urlString.isEmpty) {
+            return
+        }
+        let url = URL(string: urlString)!
+        
+        if let data = try? Data(contentsOf: url) {
+            OperationQueue.main.addOperation {
+                self.FoodImage.image = UIImage(data: data)
+            }
+        }
     }
     
     @IBAction func AddFood(_ sender : UIButton) {
