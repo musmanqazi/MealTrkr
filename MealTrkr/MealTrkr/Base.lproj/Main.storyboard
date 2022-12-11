@@ -260,14 +260,29 @@
         <!--Settings-->
         <scene sceneID="xoX-k7-yMQ">
             <objects>
-                <viewController title="Settings" id="Uzj-fj-HRi" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="tEp-gm-rs1">
+                <viewController title="Settings" id="Uzj-fj-HRi" customClass="SettingsControler" customModule="MealTrkr" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="tEp-gm-rs1">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Jl1-kc-QIB">
+                                <rect key="frame" x="182.5" y="432.5" width="51" height="31"/>
+                                <connections>
+                                    <action selector="darkaction:" destination="Uzj-fj-HRi" eventType="valueChanged" id="tru-GT-uyC"/>
+                                </connections>
+                            </switch>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="Lge-aD-F8I"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="Jl1-kc-QIB" firstAttribute="centerX" secondItem="tEp-gm-rs1" secondAttribute="centerX" id="JBh-XQ-WFQ"/>
+                            <constraint firstItem="Jl1-kc-QIB" firstAttribute="centerY" secondItem="tEp-gm-rs1" secondAttribute="centerY" id="wem-vH-WV4"/>
+                        </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="Settings" image="gearshape.fill" catalog="system" id="cWp-uy-fko"/>
+                    <connections>
+                        <outlet property="outletswitch" destination="Jl1-kc-QIB" id="vZT-zW-onf"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Khi-Zk-D4p" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -352,7 +367,7 @@
         </scene>
     </scenes>
     <resources>
-        <image name="Image" width="1206" height="877"/>
+        <image name="Image" width="1010" height="745"/>
         <image name="gearshape.fill" catalog="system" width="128" height="123"/>
         <image name="magnifyingglass" catalog="system" width="128" height="117"/>
         <image name="platter.2.filled.ipad" catalog="system" width="109" height="128"/>

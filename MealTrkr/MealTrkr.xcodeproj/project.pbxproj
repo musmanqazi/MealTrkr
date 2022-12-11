@@ -20,6 +20,7 @@
 		562361E52940275D00D599D9 /* MealTrkrTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 562361E42940275D00D599D9 /* MealTrkrTests.swift */; };
 		562361EF2940275D00D599D9 /* MealTrkrUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 562361EE2940275D00D599D9 /* MealTrkrUITests.swift */; };
 		562361F12940275D00D599D9 /* MealTrkrUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 562361F02940275D00D599D9 /* MealTrkrUITestsLaunchTests.swift */; };
+		A1DF2DBA2942D36B00BD1F16 /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1DF2DB92942D36B00BD1F16 /* Settings.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +58,7 @@
 		562361EA2940275D00D599D9 /* MealTrkrUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MealTrkrUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		562361EE2940275D00D599D9 /* MealTrkrUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealTrkrUITests.swift; sourceTree = "<group>"; };
 		562361F02940275D00D599D9 /* MealTrkrUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealTrkrUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		A1DF2DB92942D36B00BD1F16 /* Settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,6 +116,7 @@
 				562361CF2940275900D599D9 /* SceneDelegate.swift */,
 				562361D12940275900D599D9 /* ViewController.swift */,
 				562361D32940275900D599D9 /* Main.storyboard */,
+				A1DF2DB92942D36B00BD1F16 /* Settings.swift */,
 				462AAEF7294156E600E2843B /* MealsController.swift */,
 				562361D62940275C00D599D9 /* Assets.xcassets */,
 				562361D82940275C00D599D9 /* LaunchScreen.storyboard */,
@@ -272,6 +275,7 @@
 			files = (
 				462AAEF429414EF600E2843B /* MealStore.swift in Sources */,
 				462AAEF8294156E600E2843B /* MealsController.swift in Sources */,
+				A1DF2DBA2942D36B00BD1F16 /* Settings.swift in Sources */,
 				562361D22940275900D599D9 /* ViewController.swift in Sources */,
 				562361CE2940275900D599D9 /* AppDelegate.swift in Sources */,
 				562361D02940275900D599D9 /* SceneDelegate.swift in Sources */,
