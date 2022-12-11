@@ -73,28 +73,30 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" verticalHuggingPriority="254" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter Food Here" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="bTA-gV-UM5">
-                                <rect key="frame" x="140.5" y="98" width="133.5" height="34"/>
+                                <rect key="frame" x="140.5" y="128" width="133.5" height="35"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="35" id="eRR-Q2-0OX"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="252" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0gv-pR-rEt">
-                                <rect key="frame" x="168" y="147" width="78" height="35"/>
+                                <rect key="frame" x="168" y="178" width="78" height="35"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="35" id="xUJ-jt-Ray"/>
+                                </constraints>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="Search"/>
                                 <connections>
                                     <action selector="SearchButtonPressed:" destination="GQ4-To-sVn" eventType="touchUpInside" id="Oc3-J5-czU"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="253" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9CY-mj-g1A">
-                                <rect key="frame" x="149.5" y="692" width="115" height="35"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" title="Add to meal"/>
-                                <connections>
-                                    <action selector="AddFood:" destination="GQ4-To-sVn" eventType="touchUpInside" id="cx6-AY-gDK"/>
-                                </connections>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jWn-o6-EfS">
-                                <rect key="frame" x="156" y="742" width="102" height="36"/>
+                                <rect key="frame" x="156" y="753" width="102" height="35"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="35" id="1iA-dS-efh"/>
+                                    <constraint firstAttribute="height" relation="lessThanOrEqual" constant="35" id="TqJ-3n-qhz"/>
+                                </constraints>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="Save Meal"/>
                                 <connections>
@@ -102,14 +104,14 @@
                                 </connections>
                             </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Ynn-xh-QiC">
-                                <rect key="frame" x="87" y="197" width="240" height="130"/>
+                                <rect key="frame" x="87" y="228" width="240" height="130"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="240" id="7oq-GI-Ygf"/>
                                     <constraint firstAttribute="height" constant="130" id="ab8-Ee-XDu"/>
                                 </constraints>
                             </imageView>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="517-Aq-cNB" userLabel="Servings View">
-                                <rect key="frame" x="132" y="637" width="150" height="40"/>
+                                <rect key="frame" x="132" y="643" width="150" height="40"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Servings" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yl1-zV-oUT">
                                         <rect key="frame" x="5" y="10" width="66.5" height="20.5"/>
@@ -135,7 +137,7 @@
                                 </constraints>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="rP4-Vp-trm">
-                                <rect key="frame" x="82" y="362" width="250" height="250"/>
+                                <rect key="frame" x="82" y="373" width="250" height="250"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Calories" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3hg-8M-qkL" userLabel="Calories Label">
                                         <rect key="frame" x="12.5" y="45.5" width="112.5" height="20.5"/>
@@ -275,6 +277,19 @@
                                     <constraint firstItem="iqh-BC-iFo" firstAttribute="leading" secondItem="Imi-ob-lsj" secondAttribute="leading" id="x89-YW-fcp"/>
                                 </constraints>
                             </view>
+                            <button opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="253" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9CY-mj-g1A">
+                                <rect key="frame" x="149.5" y="703" width="115.5" height="35"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="35" id="k30-qI-Ie1"/>
+                                </constraints>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Add to Meal">
+                                    <attributedString key="attributedSubtitle"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="AddFood:" destination="GQ4-To-sVn" eventType="touchUpInside" id="cx6-AY-gDK"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="pYK-XP-DQw"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -284,16 +299,16 @@
                             <constraint firstItem="0gv-pR-rEt" firstAttribute="top" secondItem="bTA-gV-UM5" secondAttribute="bottom" constant="15" id="HEk-Sg-ijN"/>
                             <constraint firstItem="jWn-o6-EfS" firstAttribute="centerX" secondItem="Ppv-M9-Ln5" secondAttribute="centerX" id="IxH-HN-8n0"/>
                             <constraint firstItem="Ynn-xh-QiC" firstAttribute="top" secondItem="0gv-pR-rEt" secondAttribute="bottom" constant="15" id="LHF-iD-Fl0"/>
-                            <constraint firstItem="517-Aq-cNB" firstAttribute="top" secondItem="rP4-Vp-trm" secondAttribute="bottom" constant="25" id="RuC-G9-Jiv"/>
                             <constraint firstItem="Ynn-xh-QiC" firstAttribute="centerX" secondItem="Ppv-M9-Ln5" secondAttribute="centerX" id="SB7-3U-JAr"/>
-                            <constraint firstItem="bTA-gV-UM5" firstAttribute="top" secondItem="pYK-XP-DQw" secondAttribute="top" constant="50" id="TwM-y7-Xn8"/>
-                            <constraint firstItem="rP4-Vp-trm" firstAttribute="top" secondItem="Ynn-xh-QiC" secondAttribute="bottom" constant="35" id="ZEa-KA-xNV"/>
+                            <constraint firstItem="pYK-XP-DQw" firstAttribute="bottom" secondItem="jWn-o6-EfS" secondAttribute="bottom" constant="25" id="Srl-FO-Fe6"/>
+                            <constraint firstItem="bTA-gV-UM5" firstAttribute="top" relation="greaterThanOrEqual" secondItem="pYK-XP-DQw" secondAttribute="top" constant="25" id="TwM-y7-Xn8"/>
+                            <constraint firstItem="517-Aq-cNB" firstAttribute="top" secondItem="rP4-Vp-trm" secondAttribute="bottom" constant="20" id="Xxc-LO-rBS"/>
+                            <constraint firstItem="rP4-Vp-trm" firstAttribute="top" secondItem="Ynn-xh-QiC" secondAttribute="bottom" constant="15" id="ZEa-KA-xNV"/>
                             <constraint firstItem="jWn-o6-EfS" firstAttribute="top" secondItem="9CY-mj-g1A" secondAttribute="bottom" constant="15" id="bWM-NQ-r5T"/>
                             <constraint firstItem="9CY-mj-g1A" firstAttribute="centerX" secondItem="Ppv-M9-Ln5" secondAttribute="centerX" id="gMz-AB-sAQ"/>
                             <constraint firstItem="0gv-pR-rEt" firstAttribute="centerX" secondItem="Ppv-M9-Ln5" secondAttribute="centerX" id="kFY-rl-zK9"/>
                             <constraint firstItem="bTA-gV-UM5" firstAttribute="centerX" secondItem="Ppv-M9-Ln5" secondAttribute="centerX" id="lOn-Df-IWA"/>
-                            <constraint firstItem="pYK-XP-DQw" firstAttribute="bottom" secondItem="jWn-o6-EfS" secondAttribute="bottom" constant="35" id="ob8-gD-6fj"/>
-                            <constraint firstItem="9CY-mj-g1A" firstAttribute="top" secondItem="517-Aq-cNB" secondAttribute="bottom" constant="15" id="pcf-cT-zai"/>
+                            <constraint firstItem="9CY-mj-g1A" firstAttribute="top" secondItem="517-Aq-cNB" secondAttribute="bottom" constant="20" id="rk8-78-0uO"/>
                             <constraint firstItem="517-Aq-cNB" firstAttribute="centerX" secondItem="Ppv-M9-Ln5" secondAttribute="centerX" id="vwU-ji-rE7"/>
                         </constraints>
                         <connections>
