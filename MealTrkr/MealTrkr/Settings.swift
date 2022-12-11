@@ -13,7 +13,7 @@ import UIKit
 class SettingsControler : UIViewController {
     
     
-    @IBOutlet weak var label: UILabel!
+    @IBOutlet var label: UILabel!
     @IBOutlet var outletswitch: UISwitch!
     
     override func viewDidLoad(){
@@ -24,11 +24,7 @@ class SettingsControler : UIViewController {
         
         if outletswitch.isOn == true{
             overrideUserInterfaceStyle = .dark
-//            view.backgroundColor = .black
-            
-            
-    }//if
-        else{
+        } else {
             overrideUserInterfaceStyle = UIUserInterfaceStyle.light
         }
     
