@@ -53,14 +53,21 @@ extension MealsController: UITableViewDataSource {
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath)
+        let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath) as! CustomTableViewCell
         
         let dateFormatter = DateFormatter()
-        dateFormatter.dateFormat = "yyyy/MM/dd HH:mma"
-        
+        dateFormatter.dateFormat = "MM/dd/yyyy hh:mma"
+
         let meal = saved_meals[indexPath.row]
-        cell.textLabel?.text = dateFormatter.string(from: meal.date!)
-        cell.detailTextLabel?.text = "Calories: \(meal.calories)\nCarbs: \(meal.carbs)\nProtein: \(meal.protein)\nSaturated Fat: \(meal.saturated_fat)\nSodium: \(meal.sodium)\nCholesterol: \(meal.cholesterol)"
+        cell.label.text = dateFormatter.string(from: meal.date!)
+//        cell.detailTextLabel?.text = "Calories: \(meal.calories)\nCarbs: \(meal.carbs)\nProtein: \(meal.protein)\nSaturated Fat: \(meal.saturated_fat)\nSodium: \(meal.sodium)\nCholesterol: \(meal.cholesterol)"
+        
+        let url = URL(string: meal.photo_url!)
+        if let data = try? Data(contentsOf: url!) {
+            OperationQueue.main.addOperation {
+                cell.thumbnailImageView.image = UIImage(data: data)
+            }
+        }
         
         return cell
     }

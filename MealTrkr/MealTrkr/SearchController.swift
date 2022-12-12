@@ -143,6 +143,7 @@ class SearchController: UIViewController {
             meal.saturated_fat = current_meal_totals.nf_saturated_fat
             meal.sodium = current_meal_totals.nf_sodium
             meal.date = Date()
+            meal.photo_url = current_food.photo.highres
         }
         
         SaveButton.isEnabled = false
