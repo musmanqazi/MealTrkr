@@ -421,6 +421,9 @@
                                                     <buttonConfiguration key="configuration" style="filled" title="Delete">
                                                         <color key="baseBackgroundColor" systemColor="systemRedColor"/>
                                                     </buttonConfiguration>
+                                                    <connections>
+                                                        <action selector="onClickDeleteButton:" destination="6Gg-Px-zTz" eventType="touchUpInside" id="DQQ-aA-QrJ"/>
+                                                    </connections>
                                                 </button>
                                                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nPq-Jl-YVL">
                                                     <rect key="frame" x="25" y="65.5" width="129.5" height="35"/>

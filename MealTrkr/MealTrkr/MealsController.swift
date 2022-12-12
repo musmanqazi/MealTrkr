@@ -39,12 +39,36 @@ class MealsController: UIViewController{
         tableView.reloadData()
     }
     
+    @IBAction func onClickDeleteButton(_ sender: UIButton) {
+        let point = sender.convert(CGPoint.zero, to: tableView)
+        guard let indexPath = tableView.indexPathForRow(at: point)
+        else { return }
+        
+        let Meals = appDelegate.Meals
+        let context = Meals.persistentContainer.viewContext
+        let meal = saved_meals[indexPath.row]
+        context.delete(meal)
+        saved_meals.remove(at: indexPath.row)
+        tableView.beginUpdates()
+        tableView.deleteRows(at: [IndexPath(row: indexPath.row, section: 0)], with: .fade)
+        tableView.endUpdates()
+        
+        let dateFormatter = DateFormatter()
+        dateFormatter.dateFormat = "MM/dd/yyyy hh:mma"
+        
+        do {
+            print("Successfully deleted meal: \(dateFormatter.string(from: meal.date!))")
+            try context.save()
+        } catch {
+            print("Error deleting meal: \(error)")
+        }
+    }
 }
 
 extension MealsController: UITableViewDelegate {
-    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        print("Hello")
-    }
+//    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+//        print("Hello")
+//    }
 }
 
 extension MealsController: UITableViewDataSource {
