@@ -63,6 +63,18 @@ class MealsController: UIViewController{
             print("Error deleting meal: \(error)")
         }
     }
+    
+    @IBAction func onInfoButtonClick(_ sender: UIButton) {
+        let point = sender.convert(CGPoint.zero, to: tableView)
+        guard let indexPath = tableView.indexPathForRow(at: point)
+        else { return }
+
+        let meal = saved_meals[indexPath.row]
+        
+        appDelegate.CurrentMealInfo = meal
+    }
+    
+
 }
 
 extension MealsController: UITableViewDelegate {
@@ -86,13 +98,15 @@ extension MealsController: UITableViewDataSource {
         cell.label.text = dateFormatter.string(from: meal.date!)
 //        cell.detailTextLabel?.text = "Calories: \(meal.calories)\nCarbs: \(meal.carbs)\nProtein: \(meal.protein)\nSaturated Fat: \(meal.saturated_fat)\nSodium: \(meal.sodium)\nCholesterol: \(meal.cholesterol)"
         
-        let url = URL(string: meal.photo_url!)
-        if let data = try? Data(contentsOf: url!) {
-            OperationQueue.main.addOperation {
-                cell.thumbnailImageView.image = UIImage(data: data)
+        if (meal.photo_url != nil) {
+            let url = URL(string: meal.photo_url!)
+            if let data = try? Data(contentsOf: url!) {
+                OperationQueue.main.addOperation {
+                    cell.thumbnailImageView.image = UIImage(data: data)
+                }
             }
         }
-        
+    
         return cell
     }
 }
