@@ -123,6 +123,9 @@
                                         <rect key="frame" x="76.333333333333329" y="3" width="60.666666666666671" height="34"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits" keyboardType="decimalPad"/>
+                                        <connections>
+                                            <action selector="ServingsFieldChanged:" destination="GQ4-To-sVn" eventType="editingDidEnd" id="Jjo-Ev-evN"/>
+                                        </connections>
                                     </textField>
                                 </subviews>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>

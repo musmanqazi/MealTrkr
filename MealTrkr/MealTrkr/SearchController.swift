@@ -169,6 +169,32 @@ class SearchController: UIViewController {
         // Do any additional setup after loading the view.
     }
     
+    @IBAction func ServingsFieldChanged(_ textField: UITextField) {
+        if (textField.text != nil) {
+            var text = textField.text!
+            if (Float(text) != nil) {
+                if Float(text)! > 30 {
+                    textField.text = "30"
+                }
+            } else if (text == "") {
+                textField.text = "0"
+            }
+            if ((text.components(separatedBy: ".").count - 1) > 1) {
+                while ((text.components(separatedBy: ".").count - 1) > 2) {
+                    text = String(text.dropLast())
+                    textField.text = String(text.dropLast())
+                }
+            } else if ((text.components(separatedBy: ",").count - 1) > 1) {
+                while ((text.components(separatedBy: ",").count - 1) > 2) {
+                    text = String(text.dropLast())
+                    textField.text = String(text.dropLast())
+                }
+            }
+        } else {
+            textField.text = "0"
+        }
+    }
+    
     @IBAction func SearchButtonPressed(_ sender : UIButton) {
         if (SearchTextField.text!.isEmpty) {
             print("Search Bar empty")
