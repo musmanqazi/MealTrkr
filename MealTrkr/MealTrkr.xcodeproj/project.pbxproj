@@ -62,6 +62,7 @@
 		562361EE2940275D00D599D9 /* MealTrkrUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealTrkrUITests.swift; sourceTree = "<group>"; };
 		562361F02940275D00D599D9 /* MealTrkrUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealTrkrUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		56B1A71B2946D28500CC2947 /* CustomTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
+		973EED2E29491D5900DB47D3 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Main.strings; sourceTree = "<group>"; };
 		A1DF2DB92942D36B00BD1F16 /* Settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -234,6 +235,7 @@
 			knownRegions = (
 				en,
 				Base,
+				es,
 			);
 			mainGroup = 562361C12940275900D599D9;
 			productRefGroup = 562361CB2940275900D599D9 /* Products */;
@@ -329,6 +331,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				562361D42940275900D599D9 /* Base */,
+				973EED2E29491D5900DB47D3 /* es */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -348,6 +351,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
@@ -408,6 +412,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";

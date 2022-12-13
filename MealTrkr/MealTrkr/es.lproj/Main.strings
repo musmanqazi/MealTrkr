@@ -48,7 +48,7 @@
 "Ifl-r4-vsp.title" = "Comidas";
 
 /* Class = "UILabel"; text = "Serving Size"; ObjectID = "Imi-ob-lsj"; */
-"Imi-ob-lsj.text" = "Tamaño de la Porción";
+"Imi-ob-lsj.text" = "Tamaño de la porción";
 
 /* Class = "UILabel"; text = "Total Cholesterol"; ObjectID = "Lhp-Px-tsy"; */
 "Lhp-Px-tsy.text" = "Colesterol Total";
@@ -96,7 +96,7 @@
 "cWp-uy-fko.title" = "Ajustes";
 
 /* Class = "UIButton"; configuration.title = "Add a Picture of Your Meal"; ObjectID = "dRC-HO-VPQ"; */
-"dRC-HO-VPQ.configuration.title" = "Añade una foto de tu comida";
+"dRC-HO-VPQ.configuration.title" = "Agrega una foto de tu comida";
 
 /* Class = "UIButton"; normalTitle = "Button"; ObjectID = "dRC-HO-VPQ"; */
 "dRC-HO-VPQ.normalTitle" = "Botón";
@@ -120,7 +120,7 @@
 "jWn-o6-EfS.normalTitle" = "Botón";
 
 /* Class = "UILabel"; text = "Meal Trkr"; ObjectID = "jcJ-5f-ajy"; */
-"jcJ-5f-ajy.text" = "Rastreador de Comidas";
+"jcJ-5f-ajy.text" = "Meal Trkr";
 
 /* Class = "UIButton"; configuration.title = "Info"; ObjectID = "nPq-Jl-YVL"; */
 "nPq-Jl-YVL.configuration.title" = "Información";
