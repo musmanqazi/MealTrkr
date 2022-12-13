@@ -95,7 +95,6 @@
                                 <rect key="frame" x="145.66666666666666" y="709" width="102" height="35"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="35" id="1iA-dS-efh"/>
-                                    <constraint firstAttribute="height" relation="lessThanOrEqual" constant="35" id="TqJ-3n-qhz"/>
                                 </constraints>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="Save Meal"/>
@@ -107,7 +106,7 @@
                                 <rect key="frame" x="76.666666666666686" y="184" width="240" height="130"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="240" id="7oq-GI-Ygf"/>
-                                    <constraint firstAttribute="height" constant="130" id="ab8-Ee-XDu"/>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="130" id="ab8-Ee-XDu"/>
                                 </constraints>
                             </imageView>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="517-Aq-cNB" userLabel="Servings View">
@@ -303,7 +302,7 @@
                             <constraint firstItem="jWn-o6-EfS" firstAttribute="centerX" secondItem="Ppv-M9-Ln5" secondAttribute="centerX" id="IxH-HN-8n0"/>
                             <constraint firstItem="Ynn-xh-QiC" firstAttribute="top" secondItem="0gv-pR-rEt" secondAttribute="bottom" constant="15" id="LHF-iD-Fl0"/>
                             <constraint firstItem="Ynn-xh-QiC" firstAttribute="centerX" secondItem="Ppv-M9-Ln5" secondAttribute="centerX" id="SB7-3U-JAr"/>
-                            <constraint firstItem="pYK-XP-DQw" firstAttribute="bottom" secondItem="jWn-o6-EfS" secondAttribute="bottom" constant="25" id="Srl-FO-Fe6"/>
+                            <constraint firstItem="pYK-XP-DQw" firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="jWn-o6-EfS" secondAttribute="bottom" constant="25" id="Srl-FO-Fe6"/>
                             <constraint firstItem="bTA-gV-UM5" firstAttribute="top" relation="greaterThanOrEqual" secondItem="pYK-XP-DQw" secondAttribute="top" constant="25" id="TwM-y7-Xn8"/>
                             <constraint firstItem="517-Aq-cNB" firstAttribute="top" secondItem="rP4-Vp-trm" secondAttribute="bottom" constant="20" id="Xxc-LO-rBS"/>
                             <constraint firstItem="rP4-Vp-trm" firstAttribute="top" secondItem="Ynn-xh-QiC" secondAttribute="bottom" constant="15" id="ZEa-KA-xNV"/>
