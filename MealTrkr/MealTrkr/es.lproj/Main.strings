@@ -1,0 +1,159 @@
+
+/* Class = "UIButton"; configuration.title = "Search"; ObjectID = "0gv-pR-rEt"; */
+"0gv-pR-rEt.configuration.title" = "Búsqueda";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "0gv-pR-rEt"; */
+"0gv-pR-rEt.normalTitle" = "Botón";
+
+/* Class = "UILabel"; text = "0g"; ObjectID = "2oL-7m-nfO"; */
+"2oL-7m-nfO.text" = "0g";
+
+/* Class = "UILabel"; text = "Calories"; ObjectID = "3hg-8M-qkL"; */
+"3hg-8M-qkL.text" = "Calorías";
+
+/* Class = "UILabel"; text = "Total Carbohydrates"; ObjectID = "4S1-Oq-Eve"; */
+"4S1-Oq-Eve.text" = "Carbohidratos Totales";
+
+/* Class = "UIViewController"; title = "Meals"; ObjectID = "6Gg-Px-zTz"; */
+"6Gg-Px-zTz.title" = "Comidas";
+
+/* Class = "UILabel"; text = "Total Calories"; ObjectID = "9By-1j-964"; */
+"9By-1j-964.text" = "Calorías Totales";
+
+/* Class = "UIButton"; configuration.title = "Add to Meal"; ObjectID = "9CY-mj-g1A"; */
+"9CY-mj-g1A.configuration.title" = "Añadir a la comida";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "9CY-mj-g1A"; */
+"9CY-mj-g1A.normalTitle" = "Botón";
+
+/* Class = "UILabel"; text = "Total Sodium"; ObjectID = "AjE-yv-oEo"; */
+"AjE-yv-oEo.text" = "Sodio Total";
+
+/* Class = "UILabel"; text = "Protein"; ObjectID = "Bh8-ES-A0h"; */
+"Bh8-ES-A0h.text" = "Proteína";
+
+/* Class = "UILabel"; text = "0g"; ObjectID = "Dlx-fQ-mDZ"; */
+"Dlx-fQ-mDZ.text" = "0g";
+
+/* Class = "UITextField"; text = "1"; ObjectID = "Dod-ur-GFn"; */
+"Dod-ur-GFn.text" = "1";
+
+/* Class = "UIViewController"; title = "Find"; ObjectID = "GQ4-To-sVn"; */
+"GQ4-To-sVn.title" = "Encontrar";
+
+/* Class = "UILabel"; text = "Dark Mode"; ObjectID = "GWc-7J-eJO"; */
+"GWc-7J-eJO.text" = "Modo Oscuro";
+
+/* Class = "UITabBarItem"; title = "Meals"; ObjectID = "Ifl-r4-vsp"; */
+"Ifl-r4-vsp.title" = "Comidas";
+
+/* Class = "UILabel"; text = "Serving Size"; ObjectID = "Imi-ob-lsj"; */
+"Imi-ob-lsj.text" = "Tamaño de la Porción";
+
+/* Class = "UILabel"; text = "Total Cholesterol"; ObjectID = "Lhp-Px-tsy"; */
+"Lhp-Px-tsy.text" = "Colesterol Total";
+
+/* Class = "UILabel"; text = "0"; ObjectID = "Pwi-hz-MCm"; */
+"Pwi-hz-MCm.text" = "0";
+
+/* Class = "UILabel"; text = "0g"; ObjectID = "RnO-Vh-F3g"; */
+"RnO-Vh-F3g.text" = "0g";
+
+/* Class = "UILabel"; text = "Cholesterol"; ObjectID = "S2H-RZ-5da"; */
+"S2H-RZ-5da.text" = "Colesterol";
+
+/* Class = "UIButton"; configuration.title = "Delete"; ObjectID = "TR8-JL-M83"; */
+"TR8-JL-M83.configuration.title" = "Eliminar";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "TR8-JL-M83"; */
+"TR8-JL-M83.normalTitle" = "Botón";
+
+/* Class = "UILabel"; text = "0g"; ObjectID = "TyF-V8-ps1"; */
+"TyF-V8-ps1.text" = "0g";
+
+/* Class = "UILabel"; text = "0g"; ObjectID = "U3B-hX-daP"; */
+"U3B-hX-daP.text" = "0g";
+
+/* Class = "UIViewController"; title = "Settings"; ObjectID = "Uzj-fj-HRi"; */
+"Uzj-fj-HRi.title" = "Ajustes";
+
+/* Class = "UILabel"; text = "Saturated Fat"; ObjectID = "VVg-2T-Ogs"; */
+"VVg-2T-Ogs.text" = "Grasa Saturada";
+
+/* Class = "UILabel"; text = "Carbohydrates"; ObjectID = "VbY-tb-FOE"; */
+"VbY-tb-FOE.text" = "Carbohidratos";
+
+/* Class = "UIButton"; configuration.title = "START TRACKING"; ObjectID = "Y9b-LH-KTG"; */
+"Y9b-LH-KTG.configuration.title" = "Comenzar a Rastrear";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "Y9b-LH-KTG"; */
+"Y9b-LH-KTG.normalTitle" = "Botón";
+
+/* Class = "UITextField"; placeholder = "Enter Food Here"; ObjectID = "bTA-gV-UM5"; */
+"bTA-gV-UM5.placeholder" = "Ingrese la comida aquí";
+
+/* Class = "UITabBarItem"; title = "Settings"; ObjectID = "cWp-uy-fko"; */
+"cWp-uy-fko.title" = "Ajustes";
+
+/* Class = "UIButton"; configuration.title = "Add a Picture of Your Meal"; ObjectID = "dRC-HO-VPQ"; */
+"dRC-HO-VPQ.configuration.title" = "Añade una foto de tu comida";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "dRC-HO-VPQ"; */
+"dRC-HO-VPQ.normalTitle" = "Botón";
+
+/* Class = "UILabel"; text = "0g"; ObjectID = "fRP-aM-W7w"; */
+"fRP-aM-W7w.text" = "0g";
+
+/* Class = "UILabel"; text = "0g"; ObjectID = "g41-R2-oC7"; */
+"g41-R2-oC7.text" = "0g";
+
+/* Class = "UILabel"; text = "0 Cups"; ObjectID = "gM2-nC-kKs"; */
+"gM2-nC-kKs.text" = "0 Tazas";
+
+/* Class = "UILabel"; text = "Sodium"; ObjectID = "iqh-BC-iFo"; */
+"iqh-BC-iFo.text" = "Sodio";
+
+/* Class = "UIButton"; configuration.title = "Save Meal"; ObjectID = "jWn-o6-EfS"; */
+"jWn-o6-EfS.configuration.title" = "Guardar Comida";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "jWn-o6-EfS"; */
+"jWn-o6-EfS.normalTitle" = "Botón";
+
+/* Class = "UILabel"; text = "Meal Trkr"; ObjectID = "jcJ-5f-ajy"; */
+"jcJ-5f-ajy.text" = "Rastreador de Comidas";
+
+/* Class = "UIButton"; configuration.title = "Info"; ObjectID = "nPq-Jl-YVL"; */
+"nPq-Jl-YVL.configuration.title" = "Información";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "nPq-Jl-YVL"; */
+"nPq-Jl-YVL.normalTitle" = "Botón";
+
+/* Class = "UILabel"; text = "0g"; ObjectID = "pbu-qP-bjX"; */
+"pbu-qP-bjX.text" = "0g";
+
+/* Class = "UILabel"; text = "Total Saturated Fat"; ObjectID = "pyO-wx-40h"; */
+"pyO-wx-40h.text" = "Grasas Saturadas Totales";
+
+/* Class = "UILabel"; text = "0g"; ObjectID = "qzj-N1-xf7"; */
+"qzj-N1-xf7.text" = "0g";
+
+/* Class = "UILabel"; text = "0"; ObjectID = "rDa-da-uxG"; */
+"rDa-da-uxG.text" = "0";
+
+/* Class = "UILabel"; text = "Title"; ObjectID = "vLR-Xr-RQl"; */
+"vLR-Xr-RQl.text" = "Título";
+
+/* Class = "UINavigationItem"; title = "Meals"; ObjectID = "wYl-hY-3Lx"; */
+"wYl-hY-3Lx.title" = "Comidas";
+
+/* Class = "UITabBarItem"; title = "Find"; ObjectID = "xts-Pc-zTG"; */
+"xts-Pc-zTG.title" = "Encontrar";
+
+/* Class = "UILabel"; text = "Servings"; ObjectID = "yl1-zV-oUT"; */
+"yl1-zV-oUT.text" = "Porciones";
+
+/* Class = "UILabel"; text = "0g"; ObjectID = "yv3-py-FD5"; */
+"yv3-py-FD5.text" = "0g";
+
+/* Class = "UILabel"; text = "Total Protein"; ObjectID = "zJf-47-4Kn"; */
+"zJf-47-4Kn.text" = "Proteina Total";
