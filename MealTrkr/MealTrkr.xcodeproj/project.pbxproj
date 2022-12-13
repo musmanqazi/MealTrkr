@@ -11,6 +11,7 @@
 		462AAEF02941458200E2843B /* StoredMeals.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 462AAEEE2941458200E2843B /* StoredMeals.xcdatamodeld */; };
 		462AAEF429414EF600E2843B /* MealStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 462AAEF329414EF600E2843B /* MealStore.swift */; };
 		462AAEF8294156E600E2843B /* MealsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 462AAEF7294156E600E2843B /* MealsController.swift */; };
+		468CA2E82949094B00B11A07 /* LandingPageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 468CA2E72949094B00B11A07 /* LandingPageController.swift */; };
 		562361CE2940275900D599D9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 562361CD2940275900D599D9 /* AppDelegate.swift */; };
 		562361D02940275900D599D9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 562361CF2940275900D599D9 /* SceneDelegate.swift */; };
 		562361D22940275900D599D9 /* SelectedMealInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 562361D12940275900D599D9 /* SelectedMealInfo.swift */; };
@@ -46,6 +47,7 @@
 		462AAEEF2941458200E2843B /* StoredMeals.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = StoredMeals.xcdatamodel; sourceTree = "<group>"; };
 		462AAEF329414EF600E2843B /* MealStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealStore.swift; sourceTree = "<group>"; };
 		462AAEF7294156E600E2843B /* MealsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealsController.swift; sourceTree = "<group>"; };
+		468CA2E72949094B00B11A07 /* LandingPageController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandingPageController.swift; sourceTree = "<group>"; };
 		562361CA2940275900D599D9 /* MealTrkr.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MealTrkr.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		562361CD2940275900D599D9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		562361CF2940275900D599D9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -118,6 +120,7 @@
 				562361CF2940275900D599D9 /* SceneDelegate.swift */,
 				562361D12940275900D599D9 /* SelectedMealInfo.swift */,
 				562361D32940275900D599D9 /* Main.storyboard */,
+				468CA2E72949094B00B11A07 /* LandingPageController.swift */,
 				A1DF2DB92942D36B00BD1F16 /* Settings.swift */,
 				462AAEF7294156E600E2843B /* MealsController.swift */,
 				56B1A71B2946D28500CC2947 /* CustomTableViewCell.swift */,
@@ -276,6 +279,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				468CA2E82949094B00B11A07 /* LandingPageController.swift in Sources */,
 				56B1A71C2946D28500CC2947 /* CustomTableViewCell.swift in Sources */,
 				462AAEF429414EF600E2843B /* MealStore.swift in Sources */,
 				462AAEF8294156E600E2843B /* MealsController.swift in Sources */,

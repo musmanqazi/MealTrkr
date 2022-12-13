@@ -14,52 +14,35 @@ class SettingsControler : UIViewController {
     
     
     @IBOutlet var label: UILabel!
-    @IBOutlet var outletswitch: UISwitch!
+    @IBOutlet var darkModeSwitch: UISwitch!
+    
+    static let darkModeSwitchState = "darkModeSwitchState"
     
     override func viewDidLoad(){
         super.viewDidLoad()
+        
+        let defaults = UserDefaults.standard
+        darkModeSwitch.isOn = defaults.bool(forKey: SettingsControler.darkModeSwitchState)
     }
     
-    @IBAction func darkaction(_ sender: Any){
-        
-        if outletswitch.isOn == true{
-            overrideUserInterfaceStyle = .dark
+    @IBAction func darkaction(_ sender: UISwitch){
+        let defaults = UserDefaults.standard
+        if (darkModeSwitch.isOn) {
+            //dark mode
+            defaults.set(true, forKey: SettingsControler.darkModeSwitchState)
+            UIApplication
+                .shared
+                .connectedScenes
+                .compactMap { ($0 as? UIWindowScene)?.keyWindow }
+                .first?.overrideUserInterfaceStyle = .dark
         } else {
-            overrideUserInterfaceStyle = UIUserInterfaceStyle.light
+            //light mode
+            defaults.set(false, forKey: SettingsControler.darkModeSwitchState)
+            UIApplication
+                .shared
+                .connectedScenes
+                .compactMap { ($0 as? UIWindowScene)?.keyWindow }
+                .first?.overrideUserInterfaceStyle = .light
         }
-    
-}
-    //func saveallpreferences(){
-        //let default = UserDefaults.standard
-        
-        //default.set{
-            //elf.outletswitch.
-        
-        //}//default set
-    //}//saveallpreferences
-    //@IBOutlet var mySwitch: UISwitch!
-    //@IBOutlet var switchOffButton: UIButton!
-    //@IBOutlet var switchOnButton: UIButton!
-    
-    //@IBAction func switchToggled(_ sw: UISwitch){
-        //if (sw.isOn){
-            //turn off night mode
-        //}//if
-        //else{
-            //switch on night mode
-        //}//else
-        
-        
-   // }//Switchhtoggled
-    
-    //@IBAction func switchOff(_ b: UIButton){
-       // self.mySwitch.isOn = false
-       // self.switchToggled(self.mySwitch)
-    //}//switchoff
-    
-    //@IBAction func switchOn(_ b: UIButton){
-      //  self.mySwitch.isOn = true
-       // self.switchToggled(self.mySwitch)
-    //}//switchon
-    
+    }
 }
