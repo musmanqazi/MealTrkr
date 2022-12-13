@@ -488,107 +488,139 @@
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="nsE-HF-etS">
-                                <rect key="frame" x="20" y="130" width="357" height="221"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="nsE-HF-etS">
+                                <rect key="frame" x="21.666666666666657" y="128" width="350" height="225"/>
                                 <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="0g" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Dlx-fQ-mDZ" userLabel="Sodium Count">
-                                        <rect key="frame" x="193" y="79" width="100" height="20.5"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0g" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Dlx-fQ-mDZ" userLabel="Sodium Count">
+                                        <rect key="frame" x="185" y="85.666666666666657" width="155" height="20.333333333333329"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="0" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Pwi-hz-MCm" userLabel="Calories Count">
-                                        <rect key="frame" x="193" y="15" width="100" height="20.5"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0g" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pbu-qP-bjX" userLabel="Saturated Fat Label">
+                                        <rect key="frame" x="185" y="50.333333333333343" width="155" height="20.333333333333329"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="0g" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pbu-qP-bjX" userLabel="Saturated Fat Label">
-                                        <rect key="frame" x="193" y="44" width="100" height="20.5"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0g" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qzj-N1-xf7" userLabel="Cholesterol Count">
+                                        <rect key="frame" x="185" y="120.99999999999999" width="155" height="20.333333333333329"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="0g" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qzj-N1-xf7" userLabel="Cholesterol Count">
-                                        <rect key="frame" x="193" y="115" width="100" height="20.5"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0g" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yv3-py-FD5" userLabel="Protein Count">
+                                        <rect key="frame" x="185" y="191.66666666666669" width="155" height="20.333333333333343"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="0g" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yv3-py-FD5" userLabel="Protein Count">
-                                        <rect key="frame" x="193" y="186" width="100" height="20.5"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0g" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="g41-R2-oC7" userLabel="Carbohydrates Count">
+                                        <rect key="frame" x="185" y="156.33333333333331" width="155" height="20.333333333333343"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="0g" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="g41-R2-oC7" userLabel="Carbohydrates Count">
-                                        <rect key="frame" x="193" y="150" width="100" height="20.5"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Total Calories" textAlignment="right" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9By-1j-964" userLabel="Calories Label">
+                                        <rect key="frame" x="10" y="14.999999999999998" width="165" height="20.333333333333329"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Total Calories" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9By-1j-964" userLabel="Calories Label">
-                                        <rect key="frame" x="89" y="15" width="103" height="20.5"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Total Saturated Fat" textAlignment="right" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pyO-wx-40h">
+                                        <rect key="frame" x="10" y="50.333333333333343" width="165" height="20.333333333333329"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Total Saturated Fat" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pyO-wx-40h">
-                                        <rect key="frame" x="41" y="50" width="143.5" height="20.5"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Total Sodium" textAlignment="right" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AjE-yv-oEo" userLabel="Sodium Label">
+                                        <rect key="frame" x="10" y="85.666666666666657" width="165" height="20.333333333333329"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Total Sodium" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AjE-yv-oEo" userLabel="Sodium Label">
-                                        <rect key="frame" x="86" y="85" width="99" height="20.5"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Total Cholesterol" textAlignment="right" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Lhp-Px-tsy">
+                                        <rect key="frame" x="10" y="120.99999999999999" width="165" height="20.333333333333329"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Total Cholesterol" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Lhp-Px-tsy">
-                                        <rect key="frame" x="57" y="121" width="128" height="20.5"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Total Carbohydrates" textAlignment="right" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4S1-Oq-Eve">
+                                        <rect key="frame" x="10" y="156.33333333333331" width="165" height="20.333333333333343"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Total Carbohydrates" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4S1-Oq-Eve">
-                                        <rect key="frame" x="31" y="156" width="154" height="20.5"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Total Protein" textAlignment="right" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zJf-47-4Kn">
+                                        <rect key="frame" x="10" y="191.66666666666669" width="165" height="20.333333333333343"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Total Protein" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zJf-47-4Kn">
-                                        <rect key="frame" x="89" y="192" width="95.5" height="20.5"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Pwi-hz-MCm" userLabel="Calories Count">
+                                        <rect key="frame" x="185" y="14.999999999999998" width="155" height="20.333333333333329"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                 </subviews>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                            </view>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="wlD-sP-m7B">
-                                <rect key="frame" x="20" y="439" width="357" height="282"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dRC-HO-VPQ">
-                                <rect key="frame" x="83" y="376" width="226" height="35"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="226" id="Ojo-8f-IsE"/>
-                                    <constraint firstAttribute="height" constant="35" id="sgz-D5-RFv"/>
+                                    <constraint firstItem="Lhp-Px-tsy" firstAttribute="leading" secondItem="nsE-HF-etS" secondAttribute="leading" constant="10" id="092-M2-755"/>
+                                    <constraint firstItem="Dlx-fQ-mDZ" firstAttribute="centerY" secondItem="AjE-yv-oEo" secondAttribute="centerY" id="0Ki-iq-DHD"/>
+                                    <constraint firstItem="g41-R2-oC7" firstAttribute="top" secondItem="qzj-N1-xf7" secondAttribute="bottom" constant="15" id="1yY-Da-KPO"/>
+                                    <constraint firstAttribute="trailing" secondItem="g41-R2-oC7" secondAttribute="trailing" constant="10" id="2OZ-no-KJM"/>
+                                    <constraint firstItem="Dlx-fQ-mDZ" firstAttribute="top" secondItem="pbu-qP-bjX" secondAttribute="bottom" constant="15" id="3EI-SN-LXh"/>
+                                    <constraint firstItem="AjE-yv-oEo" firstAttribute="top" secondItem="pyO-wx-40h" secondAttribute="bottom" constant="15" id="4ro-I8-dBy"/>
+                                    <constraint firstAttribute="width" constant="350" id="7F7-hd-v9e"/>
+                                    <constraint firstItem="yv3-py-FD5" firstAttribute="top" secondItem="g41-R2-oC7" secondAttribute="bottom" constant="15" id="7bo-nh-krL"/>
+                                    <constraint firstAttribute="trailing" secondItem="Pwi-hz-MCm" secondAttribute="trailing" constant="10" id="80r-j5-zgm"/>
+                                    <constraint firstItem="zJf-47-4Kn" firstAttribute="leading" secondItem="nsE-HF-etS" secondAttribute="leading" constant="10" id="82X-gn-Pqh"/>
+                                    <constraint firstItem="4S1-Oq-Eve" firstAttribute="top" secondItem="Lhp-Px-tsy" secondAttribute="bottom" constant="15" id="8aU-3R-2HB"/>
+                                    <constraint firstItem="Lhp-Px-tsy" firstAttribute="top" secondItem="AjE-yv-oEo" secondAttribute="bottom" constant="15" id="9wb-mU-Hme"/>
+                                    <constraint firstAttribute="centerX" secondItem="pyO-wx-40h" secondAttribute="trailing" id="BJ0-Gm-ami"/>
+                                    <constraint firstAttribute="height" constant="225" id="Eau-wd-WUv"/>
+                                    <constraint firstItem="yv3-py-FD5" firstAttribute="leading" secondItem="nsE-HF-etS" secondAttribute="centerX" constant="10" id="FMD-Vf-rbs"/>
+                                    <constraint firstItem="pbu-qP-bjX" firstAttribute="top" secondItem="Pwi-hz-MCm" secondAttribute="bottom" constant="15" id="Fvv-ri-fhM"/>
+                                    <constraint firstItem="Dlx-fQ-mDZ" firstAttribute="leading" secondItem="nsE-HF-etS" secondAttribute="centerX" constant="10" id="It5-CV-uNP"/>
+                                    <constraint firstAttribute="trailing" secondItem="Dlx-fQ-mDZ" secondAttribute="trailing" constant="10" id="JyN-gd-UHp"/>
+                                    <constraint firstItem="qzj-N1-xf7" firstAttribute="top" secondItem="Dlx-fQ-mDZ" secondAttribute="bottom" constant="15" id="LIH-Ms-ucK"/>
+                                    <constraint firstAttribute="trailing" secondItem="qzj-N1-xf7" secondAttribute="trailing" constant="10" id="O2H-Qm-etR"/>
+                                    <constraint firstItem="AjE-yv-oEo" firstAttribute="leading" secondItem="nsE-HF-etS" secondAttribute="leading" constant="10" id="Oj7-ZH-L87"/>
+                                    <constraint firstItem="Pwi-hz-MCm" firstAttribute="top" secondItem="nsE-HF-etS" secondAttribute="top" constant="15" id="Q6w-40-3XT"/>
+                                    <constraint firstItem="pbu-qP-bjX" firstAttribute="centerY" secondItem="pyO-wx-40h" secondAttribute="centerY" id="RDF-bn-86u"/>
+                                    <constraint firstItem="qzj-N1-xf7" firstAttribute="centerY" secondItem="Lhp-Px-tsy" secondAttribute="centerY" id="UB0-Jg-1Hg"/>
+                                    <constraint firstItem="pyO-wx-40h" firstAttribute="top" secondItem="9By-1j-964" secondAttribute="bottom" constant="15" id="WIr-tn-Qhf"/>
+                                    <constraint firstItem="4S1-Oq-Eve" firstAttribute="leading" secondItem="nsE-HF-etS" secondAttribute="leading" constant="10" id="Wa2-GU-Vei"/>
+                                    <constraint firstAttribute="centerX" secondItem="Lhp-Px-tsy" secondAttribute="trailing" id="XAF-Eo-kbl"/>
+                                    <constraint firstItem="Pwi-hz-MCm" firstAttribute="leading" secondItem="nsE-HF-etS" secondAttribute="centerX" constant="10" id="XOV-Hs-YuH"/>
+                                    <constraint firstItem="pbu-qP-bjX" firstAttribute="leading" secondItem="nsE-HF-etS" secondAttribute="centerX" constant="10" id="YFc-9t-451"/>
+                                    <constraint firstAttribute="centerX" secondItem="AjE-yv-oEo" secondAttribute="trailing" id="a7k-gE-fMF"/>
+                                    <constraint firstItem="zJf-47-4Kn" firstAttribute="top" secondItem="4S1-Oq-Eve" secondAttribute="bottom" constant="15" id="bUu-Lo-QLi"/>
+                                    <constraint firstItem="Pwi-hz-MCm" firstAttribute="centerY" secondItem="9By-1j-964" secondAttribute="centerY" id="bbI-Sb-7Wp"/>
+                                    <constraint firstAttribute="centerX" secondItem="9By-1j-964" secondAttribute="trailing" id="dTp-8p-9et"/>
+                                    <constraint firstItem="pyO-wx-40h" firstAttribute="leading" secondItem="nsE-HF-etS" secondAttribute="leading" constant="10" id="dvZ-Cg-P1m"/>
+                                    <constraint firstAttribute="trailing" secondItem="yv3-py-FD5" secondAttribute="trailing" constant="10" id="exd-Zx-kns"/>
+                                    <constraint firstItem="9By-1j-964" firstAttribute="leading" secondItem="nsE-HF-etS" secondAttribute="leading" constant="10" id="gTU-YA-B01"/>
+                                    <constraint firstItem="9By-1j-964" firstAttribute="top" secondItem="nsE-HF-etS" secondAttribute="top" constant="15" id="j7Y-2J-Lfg"/>
+                                    <constraint firstAttribute="centerX" secondItem="zJf-47-4Kn" secondAttribute="trailing" id="llE-fV-vFP"/>
+                                    <constraint firstItem="g41-R2-oC7" firstAttribute="leading" secondItem="nsE-HF-etS" secondAttribute="centerX" constant="10" id="onQ-Ge-IlF"/>
+                                    <constraint firstAttribute="trailing" secondItem="pbu-qP-bjX" secondAttribute="trailing" constant="10" id="rfH-6Z-C32"/>
+                                    <constraint firstAttribute="centerX" secondItem="4S1-Oq-Eve" secondAttribute="trailing" id="ruP-we-DuH"/>
+                                    <constraint firstItem="qzj-N1-xf7" firstAttribute="leading" secondItem="nsE-HF-etS" secondAttribute="centerX" constant="10" id="rxg-1I-0y0"/>
+                                    <constraint firstItem="g41-R2-oC7" firstAttribute="centerY" secondItem="4S1-Oq-Eve" secondAttribute="centerY" id="sMV-3I-GdU"/>
+                                    <constraint firstItem="yv3-py-FD5" firstAttribute="centerY" secondItem="zJf-47-4Kn" secondAttribute="centerY" id="y3h-bl-5Vh"/>
                                 </constraints>
+                            </view>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="wlD-sP-m7B">
+                                <rect key="frame" x="21.666666666666657" y="438" width="350" height="275"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="350" id="CgJ-7T-fEH"/>
+                                    <constraint firstAttribute="height" constant="275" id="Gos-st-2NI"/>
+                                </constraints>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dRC-HO-VPQ">
+                                <rect key="frame" x="84.000000000000014" y="378" width="225.33333333333337" height="35"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="Add a Picture of Your Meal"/>
                                 <connections>
@@ -598,6 +630,18 @@
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="GRa-1k-oYe"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="wlD-sP-m7B" firstAttribute="centerX" secondItem="5pR-GL-JBb" secondAttribute="centerX" id="6sI-OM-pMw"/>
+                            <constraint firstItem="nsE-HF-etS" firstAttribute="centerX" secondItem="5pR-GL-JBb" secondAttribute="centerX" id="95W-xU-78A"/>
+                            <constraint firstItem="wlD-sP-m7B" firstAttribute="top" secondItem="dRC-HO-VPQ" secondAttribute="bottom" constant="25" id="BDO-Gw-ZTL"/>
+                            <constraint firstItem="dRC-HO-VPQ" firstAttribute="top" secondItem="nsE-HF-etS" secondAttribute="bottom" constant="25" id="Jzw-SU-TlU"/>
+                            <constraint firstItem="nsE-HF-etS" firstAttribute="centerX" secondItem="5pR-GL-JBb" secondAttribute="centerX" id="OmO-aG-bbz"/>
+                            <constraint firstItem="nsE-HF-etS" firstAttribute="centerX" secondItem="5pR-GL-JBb" secondAttribute="centerX" id="S85-UT-Xpt"/>
+                            <constraint firstItem="wlD-sP-m7B" firstAttribute="centerX" secondItem="5pR-GL-JBb" secondAttribute="centerX" id="UC0-ZL-D16"/>
+                            <constraint firstItem="wlD-sP-m7B" firstAttribute="centerX" secondItem="5pR-GL-JBb" secondAttribute="centerX" id="VkC-CH-mLk"/>
+                            <constraint firstItem="nsE-HF-etS" firstAttribute="top" secondItem="GRa-1k-oYe" secondAttribute="top" constant="25" id="ZbW-Ru-7hV"/>
+                            <constraint firstItem="dRC-HO-VPQ" firstAttribute="centerX" secondItem="5pR-GL-JBb" secondAttribute="centerX" id="ksq-Lz-6zi"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="Xpm-tY-Oht"/>
                     <connections>
