@@ -16,12 +16,31 @@ class MealsController: UIViewController {
     
     var myPersistence = MyPersistence()
     
+    var no_meals_label : UILabel = UILabel()
+    
     @IBOutlet var tableView : UITableView!
+    
+    override func loadView() {
+        super.loadView()
+        
+        no_meals_label.text = "No Meals Saved"
+        no_meals_label.font = UIFont.systemFont(ofSize: 30)
+        no_meals_label.sizeToFit()
+                
+        no_meals_label.center = view.center
+        no_meals_label.center.x = view.center.x
+        no_meals_label.center.y = self.view.center.y
+                
+        view.addSubview(no_meals_label)
+            
+    }
     
     override func viewDidLoad() {
         super.viewDidLoad()
         tableView.delegate = self
         tableView.dataSource = self
+        
+        
     }
     
     override func viewWillAppear(_ animated: Bool) {
@@ -39,6 +58,12 @@ class MealsController: UIViewController {
         saved_meals = fetchedMeals!
         print("Meals View loaded. CoreData founds \(saved_meals.count) meals stored.")
         tableView.reloadData()
+        
+        if (saved_meals.count > 0) {
+            no_meals_label.removeFromSuperview()
+        } else {
+            view.addSubview(no_meals_label)
+        }
     }
     
     @IBAction func onClickDeleteButton(_ sender: UIButton) {
@@ -64,6 +89,10 @@ class MealsController: UIViewController {
         } catch {
             print("Error deleting meal: \(error)")
         }
+        
+        if (saved_meals.count == 0) {
+            view.addSubview(no_meals_label)
+        }
     }
     
     @IBAction func onInfoButtonClick(_ sender: UIButton) {
@@ -74,6 +103,7 @@ class MealsController: UIViewController {
         let meal = saved_meals[indexPath.row]
         
         appDelegate.CurrentMealInfo = meal
+        appDelegate.CurrentMealIndex = indexPath.row
     }
 
 }

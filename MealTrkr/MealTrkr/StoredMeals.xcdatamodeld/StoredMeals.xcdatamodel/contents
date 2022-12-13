@@ -5,6 +5,7 @@
         <attribute name="carbs" optional="YES" attributeType="Float" defaultValueString="0.0" usesScalarValueType="YES"/>
         <attribute name="cholesterol" optional="YES" attributeType="Float" defaultValueString="0.0" usesScalarValueType="YES"/>
         <attribute name="date" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="meal_photo" optional="YES" attributeType="Binary"/>
         <attribute name="meal_photo_url" optional="YES" attributeType="String"/>
         <attribute name="photo_url" optional="YES" attributeType="String"/>
         <attribute name="protein" optional="YES" attributeType="Float" defaultValueString="0.0" usesScalarValueType="YES"/>

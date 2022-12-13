@@ -162,6 +162,8 @@ class SearchController: UIViewController {
     
     let appDelegate = UIApplication.shared.delegate as! AppDelegate
     
+    var food_list : [String] = []
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
@@ -243,6 +245,11 @@ class SearchController: UIViewController {
         current_meal_totals.nf_sodium += current_food.nf_sodium * servings
         print(current_meal_totals)
         
+        if(SearchTextField != nil) {
+            food_list.append(SearchTextField.text!)
+        }
+
+        
         AddButton.isEnabled = false
         SaveButton.isEnabled = true
     }
@@ -262,6 +269,21 @@ class SearchController: UIViewController {
             meal.date = Date()
             meal.photo_url = current_food.photo.highres
         }
+        
+        let dateFormatter = DateFormatter()
+        dateFormatter.dateFormat = "MM/dd/yyyy hh:mma"
+        
+        let desktopPath = (NSSearchPathForDirectoriesInDomains(.desktopDirectory, .userDomainMask, true) as [String]).first
+        
+        let joined = food_list.joined(separator: "\n")
+        do {
+            try joined.write(toFile: desktopPath!, atomically: true, encoding: .utf8)
+            print("Saved food list as txt to \(desktopPath!)")
+        } catch {
+            print("Could not save foods to txt: \(error)")
+        }
+        
+        food_list = []
         
         SaveButton.isEnabled = false
         current_meal_totals = Nutrients(serving_qty: 0.0, serving_unit: "Cups", nf_calories: 0.0, nf_saturated_fat: 0.0, nf_sodium: 0.0, nf_cholesterol: 0.0, nf_total_carbohydrate: 0.0, nf_protein: 0.0, photo : Photo(highres: ""))

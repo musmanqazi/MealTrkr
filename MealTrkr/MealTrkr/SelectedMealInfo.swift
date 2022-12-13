@@ -8,6 +8,7 @@
 import UIKit
 import Photos
 import PhotosUI
+import CoreData
 
 class SelectedMealInfo: UIViewController, PHPickerViewControllerDelegate {
 
@@ -35,6 +36,11 @@ class SelectedMealInfo: UIViewController, PHPickerViewControllerDelegate {
             proteinLabel.text = "\(meal.protein)g"
             cholesterolLabel.text = "\(meal.cholesterol)g"
             sodiumLabel.text = "\(meal.sodium)g"
+            
+            if(meal.meal_photo != nil) {
+                let image = UIImage(data: meal.meal_photo!)
+                mealImageView.image = image
+            }
         }
         
         
@@ -68,7 +74,7 @@ class SelectedMealInfo: UIViewController, PHPickerViewControllerDelegate {
     }
     
     func uploadToImgur(image: UIImage) {
-        let imageData = image.pngData()
+        let imageData = image.jpegData(compressionQuality: 0.25)
         let base64Image = imageData!.base64EncodedString(options: .lineLength64Characters)
 
 
@@ -90,13 +96,10 @@ class SelectedMealInfo: UIViewController, PHPickerViewControllerDelegate {
         
         let task = URLSession.shared.dataTask(with: request as URLRequest) { data, response, error in
             if(error != nil) {
-                print("Error uploading photo")
                 return
             }
-            print(response)
             guard let response = response as? HTTPURLResponse,
                     (200...299).contains(response.statusCode) else {
-                    print("server error")
                     return
                 }
                 if let mimeType = response.mimeType, mimeType == "application/json", let data = data, let dataString = String(data: data, encoding: .utf8) {
@@ -115,6 +118,22 @@ class SelectedMealInfo: UIViewController, PHPickerViewControllerDelegate {
         }
         
         task.resume()
+        
+        
+        let Meals = appDelegate.Meals
+        
+        let context = Meals.persistentContainer.viewContext
+        let fetchRequest : NSFetchRequest<Meal> = Meal.fetchRequest()
+        var fetchedMeals : [Meal]?
+        context.performAndWait {
+            fetchedMeals = try? fetchRequest.execute()
+        }
+        fetchedMeals![appDelegate.CurrentMealIndex!].setValue(imageData, forKeyPath: "meal_photo")
+        do {
+            try context.save()
+        } catch let error as NSError {
+            print("Could not save meal photo: \(error)")
+        }
     }
 
 }
