@@ -7,7 +7,121 @@
 
 import UIKit
 import CoreData
+import CryptoKit
+import Foundation
 
+class MyNetStuff
+{
+    static func loadData(
+        from url: URL,
+        completion: @escaping (Data?, URLResponse?, Error?) -> ()
+    )
+    {
+        let request = URLRequest(url: url)
+        let task = URLSession.shared.dataTask(with: request)
+        {
+            (data, response, error) in
+            
+            OperationQueue.main.addOperation {
+                completion(data, response, error)
+            }
+        }
+        task.resume()
+    }
+}
+
+class MyPersistence
+{
+    static func stringToHashString(_ s: String) -> String
+    {
+        let data = s.data(using: String.Encoding.utf8)!
+        let hash = SHA512.hash(data: data)
+        let hashString = hash.map {
+            String(format: "%02hhc", $0)
+        }.joined()
+        
+        return hashString
+    }
+        
+    func makeFileCacheURL(_ fileKey: String) -> URL
+    {
+        let cacheDirs = FileManager.default.urls(for: FileManager.SearchPathDirectory.cachesDirectory, in: FileManager.SearchPathDomainMask.userDomainMask)
+        
+        let cacheDir = cacheDirs.first!
+        let fileNameHash = MyPersistence.stringToHashString(fileKey)
+        let cachePath = cacheDir.appendingPathComponent(fileNameHash)
+        
+        return cachePath
+    }
+    
+    func isFileCache(fileKey: String) -> Bool
+    {
+        let cacheURL = self.makeFileCacheURL(fileKey)
+        let exists = FileManager.default.fileExists(atPath: cacheURL.path)
+        return exists
+    }
+    
+    func saveFileToCache(fileKey: String, fileData: Data?, overwrite: Bool = false)
+    {
+        if let fileDataSafe = fileData
+        {
+            let cacheURL = self.makeFileCacheURL(fileKey)
+            
+            if ( overwrite == false && self.isFileCache(fileKey: fileKey) )
+            {
+                return
+            }
+            
+            do
+            {
+                try fileDataSafe.write(to: cacheURL, options: NSData.WritingOptions.atomic)
+                print("File was saved to cache: \(cacheURL)")
+            }
+            catch
+            {
+                print("Error: \(error)")
+            }
+        }
+    }
+    
+    func loadFileFromCache(fileKey: String) -> Data?
+    {
+        let cacheURL = self.makeFileCacheURL(fileKey)
+        
+        do
+        {
+            let fileData = try Data(contentsOf: cacheURL)
+            print("Loading file data directly from cacheURL: \(cacheURL)")
+            return fileData
+        }
+        catch
+        {
+            return nil
+        }
+    }
+    
+    func loadFileToCache(urlAsString: String, completion: @escaping (Data) -> () )
+    {
+        let fileURL = URL(string: urlAsString)!
+        
+        MyNetStuff.loadData(from: fileURL)
+        {
+            (data, repsonse, error) in
+            
+            if let theError = error {
+                print("error loading file: \(theError)")
+            }
+            else if (data != nil) {
+                self.saveFileToCache(fileKey: urlAsString, fileData: data)
+                print("Loaded from URL \(urlAsString) and saved to cache.")
+                OperationQueue.main.addOperation {
+                    completion(data!)
+                }
+            }
+        }
+    }
+
+}
 class SearchController: UIViewController {
     @IBOutlet var SearchTextField : UITextField!
     @IBOutlet var SearchButton : UIButton!
@@ -15,6 +129,8 @@ class SearchController: UIViewController {
     @IBOutlet var SaveButton : UIButton!
     @IBOutlet var FoodImage : UIImageView!
     @IBOutlet var ServingCount : UITextField!
+    
+    var myPersistence = MyPersistence()
     
     var current_food = Nutrients(serving_qty: 0.0,
                                  serving_unit: "Cups",
@@ -102,7 +218,7 @@ class SearchController: UIViewController {
         task.resume()
     }
     
-    func getFoodImage(){
+    func getFoodImage() {
         let urlString = current_food.photo.highres
         if (urlString.isEmpty) {
             return
@@ -114,6 +230,7 @@ class SearchController: UIViewController {
                 self.FoodImage.image = UIImage(data: data)
             }
         }
+
     }
     
     @IBAction func AddFood(_ sender : UIButton) {
@@ -149,10 +266,42 @@ class SearchController: UIViewController {
         SaveButton.isEnabled = false
         current_meal_totals = Nutrients(serving_qty: 0.0, serving_unit: "Cups", nf_calories: 0.0, nf_saturated_fat: 0.0, nf_sodium: 0.0, nf_cholesterol: 0.0, nf_total_carbohydrate: 0.0, nf_protein: 0.0, photo : Photo(highres: ""))
         
-        do{
+        do {
             try context.save()
         } catch {
             print("Error saving meal: \(error)")
+        }
+        
+        let urlAsString = current_food.photo.highres
+        if (urlAsString.isEmpty) {
+            return
+        }
+//        let url = URL(string: urlAsString)
+        
+//        if let fileName = url?.lastPathComponent {
+//            if (self.myPersistence.isFileCache(fileKey: urlAsString)) {
+//                if let data = self.myPersistence.loadFileFromCache(fileKey: urlAsString) {
+//                    self.myPersistence.saveFileToCache(fileKey: fileName, fileData: data)
+//                }
+//            }
+//        }
+        if let urlAsString = meal.photo_url {
+            if (self.myPersistence.isFileCache(fileKey: urlAsString) == false) {
+                self.myPersistence.loadFileToCache(urlAsString: urlAsString) {
+                    (fileData) in
+                    self.FoodImage.image = UIImage(data: fileData)
+                    print("Success! Loaded file from URL and saved to cache.")
+                }
+            }
+            else {
+                if let data = self.myPersistence.loadFileFromCache(fileKey: urlAsString) {
+                    self.FoodImage.image = UIImage(data: data)
+                    print("Success! Loaded file directly from cache.")
+                }
+                else {
+                    print("Error! Failed to load file from cache.")
+                }
+            }
         }
     }
 
@@ -198,6 +347,4 @@ struct NutritionixAPI {
     public static let x_app_id : String = "3b08aa0f"
     public static let x_app_key : String = "70fc61621ceda0c4e2af2b3de2c86822"
 }
-
-
 

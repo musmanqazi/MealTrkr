@@ -395,28 +395,28 @@
                                 <rect key="frame" x="0.0" y="92" width="414" height="721"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="cell" id="S2u-Ds-Mpf" customClass="CustomTableViewCell" customModule="MealTrkr" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="50" width="414" height="120.5"/>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="cell" rowHeight="125" id="S2u-Ds-Mpf" customClass="CustomTableViewCell" customModule="MealTrkr" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="50" width="414" height="125"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="S2u-Ds-Mpf" id="BS6-pn-fVS">
-                                            <rect key="frame" x="0.0" y="0.0" width="414" height="120.5"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="125"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="TEg-Tf-9Dg">
-                                                    <rect key="frame" x="304" y="10" width="100" height="100.5"/>
+                                                    <rect key="frame" x="304" y="10" width="100" height="105"/>
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="100" id="ZAl-RO-dKI"/>
                                                         <constraint firstAttribute="width" constant="100" id="wsH-7b-Lb6"/>
                                                     </constraints>
                                                 </imageView>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Title" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vLR-Xr-RQl">
-                                                    <rect key="frame" x="25" y="26" width="269" height="29.5"/>
+                                                    <rect key="frame" x="25" y="26" width="269" height="31.5"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="24"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TR8-JL-M83">
-                                                    <rect key="frame" x="164.5" y="65.5" width="129.5" height="35"/>
+                                                    <rect key="frame" x="164.5" y="67.5" width="129.5" height="35"/>
                                                     <state key="normal" title="Button"/>
                                                     <buttonConfiguration key="configuration" style="filled" title="Delete">
                                                         <color key="baseBackgroundColor" systemColor="systemRedColor"/>
@@ -426,7 +426,7 @@
                                                     </connections>
                                                 </button>
                                                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nPq-Jl-YVL">
-                                                    <rect key="frame" x="25" y="65.5" width="129.5" height="35"/>
+                                                    <rect key="frame" x="25" y="67.5" width="129.5" height="35"/>
                                                     <state key="normal" title="Button"/>
                                                     <buttonConfiguration key="configuration" style="filled" title="Info"/>
                                                     <connections>

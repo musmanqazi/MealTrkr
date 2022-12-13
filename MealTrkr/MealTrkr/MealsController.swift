@@ -9,10 +9,12 @@ import UIKit
 import CoreData
 
 
-class MealsController: UIViewController{
+class MealsController: UIViewController {
     
     let appDelegate = UIApplication.shared.delegate as! AppDelegate
     var saved_meals : [Meal] = []
+    
+    var myPersistence = MyPersistence()
     
     @IBOutlet var tableView : UITableView!
     
@@ -73,7 +75,6 @@ class MealsController: UIViewController{
         
         appDelegate.CurrentMealInfo = meal
     }
-    
 
 }
 
@@ -98,13 +99,32 @@ extension MealsController: UITableViewDataSource {
         cell.label.text = dateFormatter.string(from: meal.date!)
 //        cell.detailTextLabel?.text = "Calories: \(meal.calories)\nCarbs: \(meal.carbs)\nProtein: \(meal.protein)\nSaturated Fat: \(meal.saturated_fat)\nSodium: \(meal.sodium)\nCholesterol: \(meal.cholesterol)"
         
-        if (meal.photo_url != nil) {
-            let url = URL(string: meal.photo_url!)
-            if let data = try? Data(contentsOf: url!) {
-                OperationQueue.main.addOperation {
-                    cell.thumbnailImageView.image = UIImage(data: data)
-                }
+//        if (meal.photo_url != nil) {
+//            let url = URL(string: meal.photo_url!)
+//            if let data = try? Data(contentsOf: url!) {
+//                OperationQueue.main.addOperation {
+//                    cell.thumbnailImageView.image = UIImage(data: data)
+//                }
+//            }
+//        }
+        
+        if let urlAsString = meal.photo_url {
+//            if (self.myPersistence.isFileCache(fileKey: urlAsString) == false) {
+//                self.myPersistence.loadFileToCache(urlAsString: urlAsString) {
+//                    (fileData) in
+//                    cell.thumbnailImageView.image = UIImage(data: fileData)
+//                    print("Loaded file from URL and saved to cache")
+//                }
+//            }
+//            else {
+            if let data = self.myPersistence.loadFileFromCache(fileKey: urlAsString) {
+                cell.thumbnailImageView.image = UIImage(data: data)
+                print("Success! Loaded file directly from cache.")
             }
+            else {
+                print("Error! Failed to load file from cache")
+            }
+//            }
         }
     
         return cell
