@@ -26,5 +26,5 @@ Mamas Apple Pie Final Project for CPSC 411-03
 
 ## Member 5
 * Name: Andrew Pham
-* CWID:
-* Email:
+* CWID: 888654142
+* Email: andrewphan@csu.fullerton.edu
