@@ -16,12 +16,12 @@ Mamas Apple Pie Final Project for CPSC 411-03
 
 ## Member 3
 * Name: Stephanie Pocci
-* CWID:
-* Email:
+* CWID: 893397075
+* Email: spokey@csu.fullerton.edu
 
 ## Member 4
 * Name: Andrew Jung
-* CWID: 887394708 
+* CWID: 887394708
 * Email: andrew9078@csu.fullerton.edu
 
 ## Member 5
